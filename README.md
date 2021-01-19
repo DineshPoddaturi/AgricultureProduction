@@ -1,1 +1,1 @@
-# AgricultureProduction
+This repo contains the necessary data and code for the shiny app built for Agricultural Production over the years in the United States. Most of the data used is publicly available and is free to download. We list the source of the data as we develop the app. 
