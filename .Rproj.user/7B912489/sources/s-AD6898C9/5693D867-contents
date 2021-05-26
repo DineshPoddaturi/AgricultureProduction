@@ -24,15 +24,20 @@ df <- data %>%
          new_deaths_per_million,new_cases_smoothed_per_million,total_cases_per_million,
          hosp_patients_per_million,people_vaccinated_per_hundred,people_fully_vaccinated_per_hundred)
   
+ymd(df$date)
+
 dmin<- "2020-02-01"
 dmax<- "2021-04-19"
 
+df %>% filter(location %in% "United States") %>% mutate(date = ymd(date))
+  
+  
 # Make US plot
 plot_US_animate <- data %>%
   select(location,date,total_deaths,new_deaths_smoothed,new_deaths,
          new_cases_smoothed,total_cases,hosp_patients,people_vaccinated_per_hundred,people_fully_vaccinated_per_hundred) %>%
+  filter(location %in% c("United States")) %>% 
   mutate(date = ymd(date)) %>%
-  filter(location %in% c("United States")) %>%
   filter(date>=as_date(dmin)&date<=as_date(dmax)) %>%
   rename(cases=new_cases_smoothed,deaths=new_deaths_smoothed,deathstoday=new_deaths,hospital=hosp_patients,vaccines=people_fully_vaccinated_per_hundred) %>%
   select(date,cases,hospital,deaths,deathstoday,vaccines) %>%
@@ -63,13 +68,32 @@ plot_US_animate <- data %>%
           plot.title = element_text(hjust = 0.5,size=36),
           text = element_text(size=24))
 
-animate(plot_US_animate,height = 500, width = 1000,fps=5,start_pause=5,end_pause=20)
-anim_save("covid.gif")
+# require(gifski)
+
+animate(plot_US_animate, height = 500, width = 1000,
+        fps=5, start_pause=5, end_pause=20, renderer = magick_renderer())
 
 
+# https://thenode.biologists.com/dynamic-display-of-data-with-animated-plots/research/
+
+df_tidy <- read.csv("https://raw.githubusercontent.com/JoachimGoedhart/Animate-Labeled-TimeSeries/master/FRET-ratio-tidy.csv")
+ggplot(df_tidy, aes(x=Time, y=Ratio, color=Cell)) + geom_line()
+require(gganimate)
+require(magick)
+
+animated_plot <- ggplot(df_tidy, aes(x=Time, y=Ratio, color=Cell)) +
+  geom_line() + geom_point(size=2) + transition_reveal(Time)
+animated_plot <- animated_plot + theme_light(base_size = 16)
+animated_plot <- animated_plot + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+animated_plot <- animated_plot + theme(legend.position="none")
+animation <- animate(animated_plot, nframes=70, renderer=magick_renderer())
+
+image_write_gif(animation, 'animation.gif')
 
 
+animated_plot <- animated_plot + geom_label(aes(x = Time, y=Ratio, label=Cell), nudge_x = 10, size=4, hjust=0)
+animation <- animate(animated_plot, nframes=70, renderer=magick_renderer())
 
-
+image_write_gif(animation, 'animation.gif')
 
 
