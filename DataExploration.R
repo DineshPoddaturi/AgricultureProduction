@@ -1,7 +1,9 @@
 library(tidyverse)
 library(readxl)
 library(lubridate)
-
+require(gganimate)
+require(magick)
+require(gifski)
 
 ######### In this project I use publicly available data to visualize the trends in food production, 
 ######### food consumption, food expenditure, and other items I add as I get data. I am interested in food expenditure
@@ -38,12 +40,144 @@ foodSales_monthly[cols.num] <- sapply(foodSales_monthly[cols.num],as.numeric)
 rownames(foodSales_monthly) <- 1:nrow(foodSales_monthly)
 
 
+
+
+
+
+
 ######################################################################################################################################
 ################################################### FOOD Expenditures ################################################################
 ######################################################################################################################################
 foodSales_Exp_Nominal <- read_excel("Data/FoodExpenditures/Nominal_Food_Alcohol_Expenditures_TaxesTips.xlsx") %>% as.data.frame()
 
+foodSales_Exp_Nominal_FAH <- foodSales_Exp_Nominal %>% select(Year, GroceryStores_FAH, ConvenienceStores_FAH, OtherFoodStores_FAH,
+                                                             WarehouseClubsAndSupercenters_FAH, MassMerchandisers_FAH, 
+                                                             OtherStoresAndFoodservice_FAH, MailOrderAndHomeDelivery_FAH,
+                                                             DirectSelling_FarmersManufacturersWholesalers_FAH, HomeProduction_Donations_FAH,
+                                                             Total_FAH)
+names(foodSales_Exp_Nominal_FAH) <- c("Year", "Grocery Stores", "Convenience Stores", "Other Food Stores",
+                                      "Big Box Stores", "Mass Merchandisers", "Food Service Stores", "Home Delivery",
+                                      "Wholesalers", "Home Production", "Total")
+
+foodSales_Nominal_FAH <- foodSales_Exp_Nominal_FAH %>% select(-Total) %>% gather(Type, Expenditure, -Year)
+
+foodSales_Nominal_FAH_plot <- foodSales_Nominal_FAH  %>%
+  ggplot(aes(x=Year, y=Expenditure,color=Type)) + geom_line() + 
+  labs(x="Year", y="Dollars spent (in million)")
+
+foodSales_Nominal_FAH_animated_plot <- foodSales_Nominal_FAH_plot + geom_point(size=2) + transition_reveal(Year)
+
+foodSales_Nominal_FAH_animated_plot <- foodSales_Nominal_FAH_animated_plot + theme_light(base_size = 16)
+
+foodSales_Nominal_FAH_animated_plot <- foodSales_Nominal_FAH_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                     panel.grid.minor = element_blank())
+
+foodSales_Nominal_FAH_animated_plot <- foodSales_Nominal_FAH_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Expenditure, label=Type))+ 
+  labs(x="Year", y="Million dollars")+
+  ggtitle(paste0("Food At Home Expenditure in the U.S.")) 
+
+foodSales_Nominal_FAH_animation <- animate(foodSales_Nominal_FAH_animated_plot,  height = 500, width = 1000,
+                                           fps=6, start_pause=5, end_pause=20,  
+                                           renderer = gifski_renderer("FAH-Expenditure_TipsTaxes.gif"))
+
+
+
+
+foodSales_Exp_Nominal_FAFH <- foodSales_Exp_Nominal %>% select(Year, `Full-serviceRestaurants_FAFH`, `Limited-serviceRestaurants_FAFH`,
+                                                               DrinkingPlaces_FAFH, HotelsAndMotels_FAFH, RetailStoresAndVending_FAFH,
+                                                               RecreationalPlaces_FAFH, SchoolsAndColleges_FAFH, OtherFAFHSales_NEC_FAFH,
+                                                               FoodFurnished_Donated_FAFH, Total_FAFH)
+names(foodSales_Exp_Nominal_FAFH) <- c("Year", "Full Service Restaurants", "Limited Service Restaurants",
+                                       "Drinking Places", "Hotels and Motels", "Retail Stores and Vending Machines",
+                                       "Recreational Places", "Schools and Colleges", "Other Sales", "Furnished or Donated",
+                                       "Total")
+
+foodSales_Nominal_FAFH <- foodSales_Exp_Nominal_FAFH %>% gather(Type, Expenditure, -Year)
+
+foodSales_Nominal_FAFH <- foodSales_Exp_Nominal_FAFH %>% select(-Total) %>% gather(Type, Expenditure, -Year)
+
+foodSales_Nominal_FAFH_plot <- foodSales_Nominal_FAFH  %>%
+  ggplot(aes(x=Year, y=Expenditure,color=Type)) + geom_line() + 
+  labs(x="Year", y="Dollars spent (in million)")
+
+foodSales_Nominal_FAFH_animated_plot <- foodSales_Nominal_FAFH_plot + geom_point(size=2) + transition_reveal(Year)
+
+foodSales_Nominal_FAFH_animated_plot <- foodSales_Nominal_FAFH_animated_plot + theme_light(base_size = 16)
+
+foodSales_Nominal_FAFH_animated_plot <- foodSales_Nominal_FAFH_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                                   panel.grid.minor = element_blank())
+
+foodSales_Nominal_FAFH_animated_plot <- foodSales_Nominal_FAFH_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Expenditure, label=Type))+ 
+  labs(x="Year", y="Million dollars")+
+  ggtitle(paste0("Food away From Home Expenditure in the U.S.")) 
+
+foodSales_Nominal_FAFH_animation <- animate(foodSales_Nominal_FAFH_animated_plot,  height = 500, width = 1000,
+                                           fps=6, start_pause=5, end_pause=20,  
+                                           renderer = gifski_renderer("FAFH-Expenditure_TipsTaxes.gif"))
+
+foodSales_Exp_Nominal_AAH <- foodSales_Exp_Nominal %>% select(Year, LiquorStores_AAH, FoodStores_AAH, OtherAAHSales_NEC_AAH,
+                                                              Total_AAH)
+names(foodSales_Exp_Nominal_AAH) <- c("Year", "Liquor Stores", "Food Stores", "Other Sales", "Total")
+
+foodSales_Nominal_AAH <- foodSales_Exp_Nominal_AAH %>% gather(Type, Expenditure, -Year)
+
+foodSales_Nominal_AAH <- foodSales_Exp_Nominal_AAH %>% select(-Total) %>% gather(Type, Expenditure, -Year)
+
+foodSales_Nominal_AAH_plot <- foodSales_Nominal_AAH  %>%
+  ggplot(aes(x=Year, y=Expenditure,color=Type)) + geom_line() + 
+  labs(x="Year", y="Dollars spent (in million)")
+
+foodSales_Nominal_AAH_animated_plot <- foodSales_Nominal_AAH_plot + geom_point(size=2) + transition_reveal(Year)
+
+foodSales_Nominal_AAH_animated_plot <- foodSales_Nominal_AAH_animated_plot + theme_light(base_size = 16)
+
+foodSales_Nominal_AAH_animated_plot <- foodSales_Nominal_AAH_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                                     panel.grid.minor = element_blank())
+
+foodSales_Nominal_AAH_animated_plot <- foodSales_Nominal_AAH_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Expenditure, label=Type))+ 
+  labs(x="Year", y="Million dollars")+
+  ggtitle(paste0("Alcohol At Home Expenditure in the U.S.")) 
+
+foodSales_Nominal_AAH_animation <- animate(foodSales_Nominal_AAH_animated_plot,  height = 500, width = 1000,
+                                            fps=6, start_pause=5, end_pause=20,  
+                                            renderer = gifski_renderer("AAH-Expenditure_TipsTaxes.gif"))
+
+
+foodSales_Exp_Nominal_AAFH <- foodSales_Exp_Nominal %>% select(Year, Eating_DrinkingPlaces_AAFH, Hotels_Motels_AAFH,
+                                                               OtherAAFH_NEC_AAFH, Total_AAFH)
+names(foodSales_Exp_Nominal_AAFH) <- c("Year", "Eating and Drinking Places", "Hotels and Motels",
+                                       "Other", "Total")
+foodSales_Nominal_AAFH <- foodSales_Exp_Nominal_AAFH %>% gather(Type, Expenditure, -Year)
+
+foodSales_Nominal_AAFH <- foodSales_Exp_Nominal_AAFH %>% select(-Total) %>% gather(Type, Expenditure, -Year)
+
+foodSales_Nominal_AAFH_plot <- foodSales_Nominal_AAFH  %>%
+  ggplot(aes(x=Year, y=Expenditure,color=Type)) + geom_line() + 
+  labs(x="Year", y="Dollars spent (in million)")
+
+foodSales_Nominal_AAFH_animated_plot <- foodSales_Nominal_AAFH_plot + geom_point(size=2) + transition_reveal(Year)
+
+foodSales_Nominal_AAFH_animated_plot <- foodSales_Nominal_AAFH_animated_plot + theme_light(base_size = 16)
+
+foodSales_Nominal_AAFH_animated_plot <- foodSales_Nominal_AAFH_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                                   panel.grid.minor = element_blank())
+
+foodSales_Nominal_AAFH_animated_plot <- foodSales_Nominal_AAFH_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Expenditure, label=Type))+ 
+  labs(x="Year", y="Million dollars")+
+  ggtitle(paste0("Alcohol Away From Home Expenditure in the U.S.")) 
+
+foodSales_Nominal_AAFH_animation <- animate(foodSales_Nominal_AAFH_animated_plot,  height = 500, width = 1000,
+                                           fps=6, start_pause=5, end_pause=20,  
+                                           renderer = gifski_renderer("AAFH-Expenditure_TipsTaxes.gif"))
+
 foodSales_Exp_Nominal_No_TaxTip <- read_excel("Data/FoodExpenditures/Nominal_FoodAcohol_Expenditure_No_TaxesTips.xlsx") %>% as.data.frame()
+
+
+
 
 
 #### For constant dollar series the expenditure is normalized as [Millions of dollars (1988=100)]
@@ -93,7 +227,7 @@ names(cheese_tot) <- c("Year", "U.S.Populatin_million", "Production", "Imports",
                        "FoodAvail_USDA_Donations", "FoodAvail_Total_Not_Including_USDA_donations",
                        "FoodAvail_Total_Including_USDA_donations", "Percapita")
 cheese_tot <- cheese_tot[-(1:6),]
-cheese_tot <- cheese_tot %>% as.numeric()
+# cheese_tot <- cheese_tot %>% as.numeric()
 cheese_tot <- sapply(cheese_tot, as.numeric) 
 cheese_tot <- round(cheese_tot,4) %>% as.data.frame()
 
@@ -132,9 +266,38 @@ cheese_percap_1 <- cheese_percap_1 %>% mutate(
 ##### cheese_percap contains all the available cheese per capita in the U.S.
 cheese_percap <- bind_rows(cheese_percap_1, cheese_percap_2)
 
+### I will subset the above data frame to get the columns that have all data.
+cheese_percap_subset <- cheese_percap %>% select(Year, Cheddar_USA_Type, Other_USA_Type, Mozzarella_Itl_Type, Other_Itl_Type,
+                                                 Swiss, Brick, Muenster, Cream_Neufchatel, Blue, Hispanic, Processed_Cheese, 
+                                                 FoodSpreads_Cheese)
 
+## Now I convert the data from wide to long. Working woth long data is easier for visualization 
+cheese_percap_subset <- cheese_percap_subset %>% gather(CheeseType, PerCapitaAvail, -c(Year))
 
+require(gganimate)
+require(magick)
 
+cheese_percap_plot <- cheese_percap_subset %>% 
+  ggplot(aes(x=Year, y=PerCapitaAvail,color=CheeseType)) + geom_line() + 
+  labs(x="Year", y="Cheese Available Per Capita (in pounds)")
+
+cheese_animated_plot <- cheese_percap_plot + geom_point(size=2) + transition_reveal(Year)
+
+cheese_animated_plot <- cheese_animated_plot + theme_light(base_size = 16)
+
+cheese_animated_plot <- cheese_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                     panel.grid.minor = element_blank())
+
+cheese_animated_plot <- cheese_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=PerCapitaAvail, label=CheeseType))+ 
+  labs(x="Year", y="Pounds")+
+  ggtitle(paste0("Cheese Available (Per Capita) in the U.S.")) 
+
+cheese_animation <- animate(cheese_animated_plot, height = 500, width = 1000,
+                            fps=6, start_pause=5, end_pause=20, renderer = gifski_renderer("CheeseAnimation.gif"))
+
+# cheese_animation <- animate(cheese_animated_plot, fps = 20, renderer=magick_renderer())
+# image_write_gif(cheese_animation, 'CheeseAnimation.gif')
 
 ### Frozen dairy products availability total and per capita. IC = Ice Cream, PCC = Per Capita, Tot = Total
 ### Totals are in million pounds. per capitas are in pounds
@@ -150,6 +313,34 @@ names(frozenDairy) <- c("Year", "U.S.Pop_million", "RegIC_Tot", "RegIC_PCC",
 
 frozenDairy <- sapply(frozenDairy, as.numeric) %>% as.data.frame()
 frozenDairy <- round(frozenDairy,4) %>% select(-"NA", -"NA1", -"WaterJuice_Tot", -"WaterJuice_PCC")
+
+frozenDairy <- frozenDairy %>% filter(Year<=2019)
+
+
+frozenDairy_totals <- frozenDairy %>% select(Year, RegIC_Tot, LowFatIC_Tot, NonFatIC_Tot,
+                                             Sherbet_Tot, MellorineMix_Total, FroYo_Tot)
+names(frozenDairy_totals) <- c("Year", "Reg IceCream", "Low Fat IceCream", "Non Fat IceCream", "Sherbet", 
+                               "Mellorine Mix", "FroYo")
+frozenDairy_totals <- frozenDairy_totals %>% gather(Type, Pounds, -Year)
+
+frozenDairy_plot <- frozenDairy_totals %>% ggplot(aes(x = Year, y = Pounds, color = Type)) + geom_line()
+
+frozenDairy_animated_plot <- frozenDairy_plot + geom_point(size=2) + transition_reveal(Year)
+
+frozenDairy_animated_plot <- frozenDairy_animated_plot + theme_light(base_size = 16)
+
+frozenDairy_animated_plot <- frozenDairy_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                     panel.grid.minor = element_blank())
+
+frozenDairy_animated_plot <- frozenDairy_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Pounds, label=Type))+ 
+  labs(x="Year", y="Pounds")+
+  ggtitle("Frozen Dairy Available in the U.S. (million pounds)") 
+
+frozenDairy_animation <- animate(frozenDairy_animated_plot, height = 500, width = 1000,
+                                 fps=6, start_pause=5, end_pause=20, renderer = gifski_renderer("frozenDairyAnimation.gif"))
+
+
 
 
 
@@ -180,8 +371,6 @@ meatRetail <- meatRetail[-(1:5),]
 meatRetail <- sapply(meatRetail, as.numeric) %>% as.data.frame()
 meatRetail <- round(meatRetail,4)
 
-
-
 #### The data are for per capita and are in pounds(Boneless weight)
 meatBoneless <- allmeatAvailability[[4]] %>% as.data.frame()
 names(meatBoneless) <- c("Year", "U.S.Pop_million", "Beef_PCC", "Veal_PCC", "Pork_PCC", "Lamb_PCC", "Total_RedMeat",
@@ -190,6 +379,35 @@ meatBoneless <- meatBoneless[-(1:5),]
 
 meatBoneless <- sapply(meatBoneless, as.numeric) %>% as.data.frame()
 meatBoneless <- round(meatBoneless,4)
+
+#### I am only getting per capita availability of boneless meat
+meatBoneless_subset <- meatBoneless %>% transmute(Year = Year, Population = U.S.Pop_million, Beef = Beef_PCC, Veal = Veal_PCC, 
+                                                  Pork = Pork_PCC, Lamb = Lamb_PCC, Chicken = Chicken_PCC, 
+                                                  Fish = Fish_ShellFish_PCC) %>% filter(Year <= 2019)
+
+meatBoneless_long <- meatBoneless_subset %>% select(-Population) %>% gather(Type, Value, -Year)
+
+meatBoneless_plot <- meatBoneless_long %>% ggplot(aes(x=Year, y=Value, color = Type)) + geom_line()
+
+meatBoneless_animated_plot <- meatBoneless_plot + geom_point(size=2) + transition_reveal(Year)
+
+meatBoneless_animated_plot <- meatBoneless_animated_plot + theme_light(base_size = 16)
+
+meatBoneless_animated_plot <- meatBoneless_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                     panel.grid.minor = element_blank())
+
+meatBoneless_animated_plot <- meatBoneless_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Value, label=Type), nudge_x = 10, size=4, hjust=0)+ 
+  labs(x="Year", y="Pounds")+
+  ggtitle(paste0("Meat Available (Per Capita) in the U.S.")) 
+
+meatBoneless_animated_plot <- animate(meatBoneless_animated_plot, 
+                                      height = 500, width = 1000, renderer = gifski_renderer("BonelessMeatAnimation.gif"))
+
+
+
+
+
 
 #### Leading Meat(Boneless weight)
 meatLeading <- allmeatAvailability[[5]] %>% as.data.frame()

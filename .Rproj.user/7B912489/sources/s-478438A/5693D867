@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1621786680922.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5693D867",
+    "lastKnownWriteTime" : 1622065052,
+    "last_content_update" : 1622065052872,
+    "path" : "/Users/Dinesh/Dinesh/Agriculture Production/AgricultureProduction/gifCode.R",
+    "project_path" : "gifCode.R",
+    "properties" : {
+        "cursorPosition" : "73,43",
+        "scrollLine" : "56"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
