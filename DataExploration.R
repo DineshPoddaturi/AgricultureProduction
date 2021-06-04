@@ -176,10 +176,6 @@ foodSales_Nominal_AAFH_animation <- animate(foodSales_Nominal_AAFH_animated_plot
 
 foodSales_Exp_Nominal_No_TaxTip <- read_excel("Data/FoodExpenditures/Nominal_FoodAcohol_Expenditure_No_TaxesTips.xlsx") %>% as.data.frame()
 
-
-
-
-
 #### For constant dollar series the expenditure is normalized as [Millions of dollars (1988=100)]
 foodSales_Exp_ConstantDollar <- read_excel("Data/FoodExpenditures/Constant_Food_Alcohol_Expenditures_TaxesTips.xlsx") %>% as.data.frame()
 
@@ -188,7 +184,31 @@ foodSales_Exp_ConstantDollar_No_TaxTip <- read_excel("Data/FoodExpenditures/Cons
 #### This following is by the final purchaser. This includes both nominal and constant dollar measurement
 foodSales_Exp_FinalPurchaser <- read_excel("Data/FoodExpenditures/food_expenditures_final_purchaser.xlsx") %>% as.data.frame()
 
+foodSales_Exp_FinalPurchaser_FAH_Nominal <- foodSales_Exp_FinalPurchaser %>% select(Year, Households_Nom_FAH, 
+                                                                                    Government_Nom_FAH, `Home production_Nom_FAH`)
+names(foodSales_Exp_FinalPurchaser_FAH_Nominal) <- c("Year", "Households", "Government", "Home Production")
 
+foodSales_Exp_FinalPurchaser_FAH_Nominal <- foodSales_Exp_FinalPurchaser_FAH_Nominal %>% gather(Type, Expenditure, -Year)
+
+foodSales_Exp_FinalPurchaser_FAH_Nominal_plot <- foodSales_Exp_FinalPurchaser_FAH_Nominal  %>%
+  ggplot(aes(x=Year, y=Expenditure,color=Type)) + geom_line() + 
+  labs(x="Year", y="Dollars spent (in million)")
+
+foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot <- foodSales_Exp_FinalPurchaser_FAH_Nominal_plot + geom_point(size=2) + transition_reveal(Year)
+
+foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot <- foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot + theme_light(base_size = 16)
+
+foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot <- foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                                     panel.grid.minor = element_blank())
+
+foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot <- foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Expenditure, label=Type))+ 
+  labs(x="Year", y="Million dollars")+
+  ggtitle(paste0("Food At Home expenditure in the U.S. by the final purchaser")) 
+
+foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot <- animate(foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot,  
+                                                                  height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                                                  renderer = gifski_renderer("FAH-Expenditure_FinalPurchaser.gif"))
 
 
 
@@ -293,8 +313,8 @@ cheese_animated_plot <- cheese_animated_plot + theme(legend.position="none") +
   labs(x="Year", y="Pounds")+
   ggtitle(paste0("Cheese Available (Per Capita) in the U.S.")) 
 
-cheese_animation <- animate(cheese_animated_plot, height = 500, width = 1000,
-                            fps=6, start_pause=5, end_pause=20, renderer = gifski_renderer("CheeseAnimation.gif"))
+cheese_animation <- animate(cheese_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                            renderer = gifski_renderer("CheeseAnimation.gif"))
 
 # cheese_animation <- animate(cheese_animated_plot, fps = 20, renderer=magick_renderer())
 # image_write_gif(cheese_animation, 'CheeseAnimation.gif')
@@ -337,8 +357,8 @@ frozenDairy_animated_plot <- frozenDairy_animated_plot + theme(legend.position="
   labs(x="Year", y="Pounds")+
   ggtitle("Frozen Dairy Available in the U.S. (million pounds)") 
 
-frozenDairy_animation <- animate(frozenDairy_animated_plot, height = 500, width = 1000,
-                                 fps=6, start_pause=5, end_pause=20, renderer = gifski_renderer("frozenDairyAnimation.gif"))
+frozenDairy_animation <- animate(frozenDairy_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                 renderer = gifski_renderer("frozenDairyAnimation.gif"))
 
 
 
@@ -397,12 +417,12 @@ meatBoneless_animated_plot <- meatBoneless_animated_plot + theme(panel.grid.majo
                                                      panel.grid.minor = element_blank())
 
 meatBoneless_animated_plot <- meatBoneless_animated_plot + theme(legend.position="none") + 
-  geom_label(aes(x = Year, y=Value, label=Type), nudge_x = 10, size=4, hjust=0)+ 
+  geom_label(aes(x = Year, y=Value, label=Type))+ 
   labs(x="Year", y="Pounds")+
-  ggtitle(paste0("Meat Available (Per Capita) in the U.S.")) 
+  ggtitle(paste0("Meat Available (Per Capita) in the U.S. ")) 
 
-meatBoneless_animated_plot <- animate(meatBoneless_animated_plot, 
-                                      height = 500, width = 1000, renderer = gifski_renderer("BonelessMeatAnimation.gif"))
+meatBoneless_animated_plot <- animate(meatBoneless_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                      renderer = gifski_renderer("BonelessMeatAnimation.gif"))
 
 
 
@@ -418,9 +438,68 @@ meatLeading <- meatLeading[-(1:5),]
 meatLeading <- sapply(meatLeading, as.numeric) %>% as.data.frame()
 meatLeading <- round(meatLeading,4) %>% filter(Year<=2019)
 
+leadingMeat_Long <- meatLeading %>% select(-U.S.Pop_million, -Total_LeadingMeat_PCC)  %>% gather(Type,Value, -Year)
 
-####################################################################################################################################
+leadingMeat_plot <- leadingMeat_Long %>% ggplot(aes(x=Year, y = Value, color = Type)) + geom_line()
 
+leadingMeat_animated_plot <- leadingMeat_plot + geom_point(size=2) + transition_reveal(Year)
+
+leadingMeat_animated_plot <- leadingMeat_animated_plot + theme_light(base_size = 16)
+
+leadingMeat_animated_plot <- leadingMeat_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                 panel.grid.minor = element_blank())
+
+leadingMeat_animated_plot <- leadingMeat_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Value, label=Type))+ 
+  labs(x="Year", y="Pounds")+
+  ggtitle(paste0("Leading Meat Available (Per Capita) in the U.S. ")) 
+
+leadingMeat_animated_plot <- animate(leadingMeat_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                      renderer = gifski_renderer("LeadingMeatAnimation.gif"))
+
+
+
+
+
+##########################################################
+#################### FEED GRAINS ########################
+##########################################################
+
+### Corn data for every commodity market year
+
+corn <- read_excel("Data/ProductionData/Feed_Grains_Excel_Corn.xlsx") %>% as.data.frame()
+
+corn <- corn %>% select(Year, Attribute, Unit, Amount)
+unique(corn$Attribute)
+
+corn_prices <- corn %>% filter(Attribute=="Prices received by farmers")
+
+corn_use <- corn %>% filter(Attribute %in% c('Food, alcohol, and industrial use', 'Seed use',
+                                             'Feed and residual use', 'High-fructose corn syrup (HFCS) use',
+                                             'Glucose and dextrose use', 'Starch use', 
+                                             'Alcohol for beverages and manufacturing use'))
+corn_use <- corn_use %>% select(Year, Attribute, Amount)
+corn_use <- corn_use %>% spread(Attribute, Amount)
+names(corn_use) <- c('Year', 'Alcohol_Beverages_Manufacturing', 'Feed', 'Food_Alcohol_Industrial',
+                     'Glucose_Dextrose', 'High-Fructose_Corn_Syrup', 'Seed', 'Starch')
+corn_use <- corn_use %>% gather(Type, Value, -Year)
+
+corn_use_plot <- corn_use %>% ggplot(aes(x = Year, y = Value, color = Type)) + geom_line()
+
+corn_use_animated_plot <- corn_use_plot + geom_point(size=2) + transition_reveal(Year)
+
+corn_use_animated_plot <- corn_use_animated_plot + theme_light(base_size = 16)
+
+corn_use_animated_plot <- corn_use_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                               panel.grid.minor = element_blank())
+
+corn_use_animated_plot <- corn_use_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Value, label=Type))+ 
+  labs(x="Year", y="Million bushels")+
+  ggtitle(paste0("Corn use in the U.S.")) 
+
+corn_use_animated_plot <- animate(corn_use_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                     renderer = gifski_renderer("CornUseAnimation.gif"))
 
 
 
