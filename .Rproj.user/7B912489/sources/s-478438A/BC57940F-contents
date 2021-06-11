@@ -210,6 +210,61 @@ foodSales_Exp_FinalPurchaser_FAH_Nominal_animated_plot <- animate(foodSales_Exp_
                                                                   height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
                                                                   renderer = gifski_renderer("FAH-Expenditure_FinalPurchaser.gif"))
 
+###### Monthly food sales data in million dollars
+
+
+foodSales_Exp_Monthly <- read_excel("Data/FoodExpenditures/MonthlySales_TaxesTips.xlsx") %>% as.data.frame()
+
+names(foodSales_Exp_Monthly) <- c("Year", "Month", "FAH_NOM", "FAFH_NOM", "TOT_NOM", 
+                                  "FAH_CONS", "FAFH_CONS", "TOT_CONS")
+foodSales_Exp_Monthly <- foodSales_Exp_Monthly[-(1:4),]
+
+foodSales_Exp_Monthly_NOM <- sapply(foodSales_Exp_Monthly %>% 
+                                      select(Year, FAH_NOM, FAFH_NOM), as.numeric) %>% as.data.frame()
+foodSales_Exp_Monthly_NOM <- foodSales_Exp_Monthly_NOM %>% transmute(Year = Year, Month = foodSales_Exp_Monthly$Month,
+                                                                     FAH = FAH_NOM, FAFH = FAFH_NOM)
+
+foodSales_Exp_Monthly_NOM_FAH <- foodSales_Exp_Monthly_NOM %>% select(-FAFH)
+foodSales_Exp_Monthly_NOM_FAFH <- foodSales_Exp_Monthly_NOM %>% select(-FAH)
+
+foodSales_Exp_Monthly_NOM_FAH_plot <- foodSales_Exp_Monthly_NOM_FAH %>% 
+  ggplot(aes(x=Year, y=FAH, color = Month)) + geom_line()
+
+foodSales_Exp_Monthly_NOM_FAH_animated_plot <- foodSales_Exp_Monthly_NOM_FAH_plot + geom_point(size=2) + transition_reveal(Year)
+
+foodSales_Exp_Monthly_NOM_FAH_animated_plot <- foodSales_Exp_Monthly_NOM_FAH_animated_plot + theme_light(base_size = 16)
+
+foodSales_Exp_Monthly_NOM_FAH_animated_plot <- foodSales_Exp_Monthly_NOM_FAH_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                                                                         panel.grid.minor = element_blank())
+
+foodSales_Exp_Monthly_NOM_FAH_animated_plot <- foodSales_Exp_Monthly_NOM_FAH_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=FAH, label=Month))+ 
+  labs(x="Year", y="Million dollars")+
+  ggtitle(paste0("Food At Home expenditure in the U.S. by month"))
+
+foodSales_Exp_Monthly_NOM_FAH_animated_plot <- animate(foodSales_Exp_Monthly_NOM_FAH_animated_plot,  
+                                                                  height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                                                  renderer = gifski_renderer("FAH-Expenditure_Month.gif"))
+
+foodSales_Exp_Monthly_NOM_FAFH_plot <- foodSales_Exp_Monthly_NOM_FAFH %>% 
+  ggplot(aes(x=Year, y=FAFH, color = Month)) + geom_line()
+
+foodSales_Exp_Monthly_NOM_FAFH_animated_plot <- foodSales_Exp_Monthly_NOM_FAFH_plot + geom_point(size=2) + transition_reveal(Year)
+
+foodSales_Exp_Monthly_NOM_FAFH_animated_plot <- foodSales_Exp_Monthly_NOM_FAFH_animated_plot + theme_light(base_size = 16)
+
+foodSales_Exp_Monthly_NOM_FAFH_animated_plot <- foodSales_Exp_Monthly_NOM_FAFH_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                                                   panel.grid.minor = element_blank())
+
+foodSales_Exp_Monthly_NOM_FAFH_animated_plot <- foodSales_Exp_Monthly_NOM_FAFH_animated_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=FAFH, label=Month))+ 
+  labs(x="Year", y="Million dollars")+
+  ggtitle(paste0("Food Away From Home expenditure in the U.S. by month"))
+
+foodSales_Exp_Monthly_NOM_FAFH_animated_plot <- animate(foodSales_Exp_Monthly_NOM_FAFH_animated_plot,  
+                                                       height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                                       renderer = gifski_renderer("FAFH-Expenditure_Month.gif"))
+
 
 
 
@@ -500,6 +555,63 @@ corn_use_animated_plot <- corn_use_animated_plot + theme(legend.position="none")
 
 corn_use_animated_plot <- animate(corn_use_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
                                      renderer = gifski_renderer("CornUseAnimation.gif"))
+
+
+
+
+################################# Vegetables Availability #############
+
+veggiesPath <- "Data/FoodAvailabilityData/FreshVegetables.xlsx"
+allVeggiesAvailability<- lapply(excel_sheets(veggiesPath), read_excel, path = veggiesPath)
+
+allVeggiesAvail_PCC_FarmWeight <- allVeggiesAvailability[[2]]
+allVeggiesAvail_PCC_FarmWeight <- allVeggiesAvail_PCC_FarmWeight %>% as.data.frame()
+allVeggiesAvail_PCC_FarmWeight <- allVeggiesAvail_PCC_FarmWeight[-(1:2),]
+allVeggiesAvail_PCC_FarmWeight <- sapply(allVeggiesAvail_PCC_FarmWeight, as.numeric) %>% as.data.frame()
+allVeggiesAvail_PCC_FarmWeight <- round(allVeggiesAvail_PCC_FarmWeight,4)
+
+
+#### These veggies are in pounds
+
+#### I will take the major vegetables for the plot. Bell peppers, Broccoli, Cabbage, Carrots, Cauliflower,
+#### Celery, Garlic, Kale, Lettuce head, Mushrooms, Onion, Potatoes, Spinach, Sweet Potatoes, Tomatoes.
+
+# allVeggiesAvail_PCC_FarmWeight <- allVeggiesAvail_PCC_FarmWeight %>% select(Year, `Bell peppers`, Broccoli,
+#                                                                             Cabbage, Carrots, Cauliflower, Celery, Garlic,
+#                                                                             Kale, `Lettuce head`, Mushrooms, Onions, Potatoes,
+#                                                                             Spinach, `Sweet potatoes`, Tomatoes)
+
+allVeggiesAvail_PCC_FarmWeight <- allVeggiesAvail_PCC_FarmWeight %>% select(Year, `Bell peppers`, Broccoli,
+                                                                            Carrots, Cauliflower,
+                                                                            Kale, Mushrooms,
+                                                                            Spinach, `Sweet potatoes`)
+
+
+allVeggiesAvail_PCC_FarmWeight <- allVeggiesAvail_PCC_FarmWeight %>% gather(Vegetable, Availability, -Year)
+
+allVeggiesAvail_PCC_FarmWeight_plot <- allVeggiesAvail_PCC_FarmWeight %>% ggplot(aes(x=Year, y = Availability, color = Vegetable)) + geom_line()
+
+allVeggiesAvail_PCC_FarmWeight_plot <- allVeggiesAvail_PCC_FarmWeight_plot + geom_point(size=2) + transition_reveal(Year)
+
+allVeggiesAvail_PCC_FarmWeight_plot <- allVeggiesAvail_PCC_FarmWeight_plot + theme_light(base_size = 16)
+
+allVeggiesAvail_PCC_FarmWeight_plot <- allVeggiesAvail_PCC_FarmWeight_plot + theme(panel.grid.major = element_blank(), 
+                                                         panel.grid.minor = element_blank())
+
+allVeggiesAvail_PCC_FarmWeight_plot <- allVeggiesAvail_PCC_FarmWeight_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Availability, label=Vegetable))+ 
+  labs(x="Year", y="Pounds")+
+  ggtitle(paste0("Vegetable Availability in the U.S.")) 
+
+allVeggiesAvail_PCC_FarmWeight_plot <- animate(allVeggiesAvail_PCC_FarmWeight_plot, height = 500, width = 1000,fps=6, start_pause=5, 
+                                               end_pause=20, renderer = gifski_renderer("VeggiesAvail.gif"))
+
+
+
+
+
+
+
 
 
 

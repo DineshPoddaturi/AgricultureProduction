@@ -1,0 +1,2101 @@
+Year,Category1,Category2,Amount
+1948,Total output,Total output,0.35929534
+1948,Livestock and products,All livestock and products,0.437910713
+1948,Livestock and products,Meat animals,0.563465128
+1948,Livestock and products,Dairy,0.448528846
+1948,Livestock and products,Poultry and eggs,0.131924371
+1948,Crops,All crops,0.332174094
+1948,Crops,Food grains,0.524303879
+1948,Crops,Feed crops,0.390279159
+1948,Crops,Oil crops,0.10193936
+1948,Crops,Vegetables and melons,0.398188577
+1948,Crops,Fruits and nuts,0.309049769
+1948,Crops,Other crops,0.410790703
+1948,Farm-related output,Farm-related output,0.232905003
+1948,Total farm inputs,Total farm inputs,0.94256743
+1948,Capital,All capital,1.120913533
+1948,Capital,Durable equipment,0.467550143
+1948,Capital,Service buildings,0.886675526
+1948,Capital,Land,1.369041049
+1948,Capital,Inventories,0.706451738
+1948,Labor,All labor,3.9746116
+1948,Labor,Hired labor,2.999097654
+1948,Labor,Self-employed and unpaid family,4.570501419
+1948,Intermediate goods,All intermediate goods,0.427950169
+1948,Intermediate goods,Feed and seed,0.454795465
+1948,Intermediate goods,Energy,1.015512652
+1948,Intermediate goods,Fertilizer and lime,0.299007955
+1948,Intermediate goods,Pesticides,0.016233503
+1948,Intermediate goods,Purchased services,0.452102683
+1948,Intermediate goods,Other intermediate,0.266192141
+1948,Total factor productivity (TFP),Total factor productivity (TFP),0.381187943
+1949,Total output,Total output,0.353759758
+1949,Livestock and products,All livestock and products,0.440964624
+1949,Livestock and products,Meat animals,0.583518266
+1949,Livestock and products,Dairy,0.468620192
+1949,Livestock and products,Poultry and eggs,0.15069262
+1949,Crops,All crops,0.321466724
+1949,Crops,Food grains,0.450333888
+1949,Crops,Feed crops,0.358866082
+1949,Crops,Oil crops,0.0974926
+1949,Crops,Vegetables and melons,0.450981098
+1949,Crops,Fruits and nuts,0.272892098
+1949,Crops,Other crops,0.451701159
+1949,Farm-related output,Farm-related output,0.219243226
+1949,Total farm inputs,Total farm inputs,0.954977356
+1949,Capital,All capital,1.141447072
+1949,Capital,Durable equipment,0.551741575
+1949,Capital,Service buildings,0.925152008
+1949,Capital,Land,1.373723102
+1949,Capital,Inventories,0.76433709
+1949,Labor,All labor,3.87882399
+1949,Labor,Hired labor,2.786415323
+1949,Labor,Self-employed and unpaid family,4.546307607
+1949,Intermediate goods,All intermediate goods,0.442052625
+1949,Intermediate goods,Feed and seed,0.470489291
+1949,Intermediate goods,Energy,1.124234024
+1949,Intermediate goods,Fertilizer and lime,0.289958662
+1949,Intermediate goods,Pesticides,0.019592468
+1949,Intermediate goods,Purchased services,0.450856179
+1949,Intermediate goods,Other intermediate,0.311151763
+1949,Total factor productivity (TFP),Total factor productivity (TFP),0.37043785
+1950,Total output,Total output,0.344997539
+1950,Livestock and products,All livestock and products,0.448216977
+1950,Livestock and products,Meat animals,0.598508539
+1950,Livestock and products,Dairy,0.472826923
+1950,Livestock and products,Poultry and eggs,0.162130043
+1950,Crops,All crops,0.30237602
+1950,Crops,Food grains,0.419775162
+1950,Crops,Feed crops,0.367987082
+1950,Crops,Oil crops,0.099014474
+1950,Crops,Vegetables and melons,0.435843419
+1950,Crops,Fruits and nuts,0.269818239
+1950,Crops,Other crops,0.348549519
+1950,Farm-related output,Farm-related output,0.22238044
+1950,Total farm inputs,Total farm inputs,0.960429406
+1950,Capital,All capital,1.17014188
+1950,Capital,Durable equipment,0.636629786
+1950,Capital,Service buildings,0.955875741
+1950,Capital,Land,1.376957522
+1950,Capital,Inventories,0.754251485
+1950,Labor,All labor,3.731842224
+1950,Labor,Hired labor,2.90492755
+1950,Labor,Self-employed and unpaid family,4.236455569
+1950,Intermediate goods,All intermediate goods,0.451082101
+1950,Intermediate goods,Feed and seed,0.469700281
+1950,Intermediate goods,Energy,1.153243505
+1950,Intermediate goods,Fertilizer and lime,0.370919587
+1950,Intermediate goods,Pesticides,0.025087738
+1950,Intermediate goods,Purchased services,0.461769782
+1950,Intermediate goods,Other intermediate,0.270105592
+1950,Total factor productivity (TFP),Total factor productivity (TFP),0.359211762
+1951,Total output,Total output,0.360430419
+1951,Livestock and products,All livestock and products,0.466187822
+1951,Livestock and products,Meat animals,0.631356891
+1951,Livestock and products,Dairy,0.465134615
+1951,Livestock and products,Poultry and eggs,0.17309752
+1951,Crops,All crops,0.319199433
+1951,Crops,Food grains,0.41426307
+1951,Crops,Feed crops,0.355535524
+1951,Crops,Oil crops,0.103524852
+1951,Crops,Vegetables and melons,0.442383398
+1951,Crops,Fruits and nuts,0.297631003
+1951,Crops,Other crops,0.452348617
+1951,Farm-related output,Farm-related output,0.192625867
+1951,Total farm inputs,Total farm inputs,0.975346786
+1951,Capital,All capital,1.193412503
+1951,Capital,Durable equipment,0.71051483
+1951,Capital,Service buildings,0.983986308
+1951,Capital,Land,1.378356055
+1951,Capital,Inventories,0.772697837
+1951,Labor,All labor,3.58844855
+1951,Labor,Hired labor,2.804683823
+1951,Labor,Self-employed and unpaid family,4.066649294
+1951,Intermediate goods,All intermediate goods,0.471539598
+1951,Intermediate goods,Feed and seed,0.49141016
+1951,Intermediate goods,Energy,1.196977513
+1951,Intermediate goods,Fertilizer and lime,0.36237969
+1951,Intermediate goods,Pesticides,0.021484071
+1951,Intermediate goods,Purchased services,0.502355155
+1951,Intermediate goods,Other intermediate,0.277571549
+1951,Total factor productivity (TFP),Total factor productivity (TFP),0.369540787
+1952,Total output,Total output,0.37196701
+1952,Livestock and products,All livestock and products,0.476667946
+1952,Livestock and products,Meat animals,0.656328342
+1952,Livestock and products,Dairy,0.469576923
+1952,Livestock and products,Poultry and eggs,0.176815121
+1952,Crops,All crops,0.332028883
+1952,Crops,Food grains,0.531501919
+1952,Crops,Feed crops,0.367344133
+1952,Crops,Oil crops,0.103533077
+1952,Crops,Vegetables and melons,0.420958763
+1952,Crops,Fruits and nuts,0.292267983
+1952,Crops,Other crops,0.453717664
+1952,Farm-related output,Farm-related output,0.201758849
+1952,Total farm inputs,Total farm inputs,0.977623778
+1952,Capital,All capital,1.211785242
+1952,Capital,Durable equipment,0.77234573
+1952,Capital,Service buildings,1.009755693
+1952,Capital,Land,1.377536681
+1952,Capital,Inventories,0.811978179
+1952,Labor,All labor,3.508254663
+1952,Labor,Hired labor,2.740417935
+1952,Labor,Self-employed and unpaid family,3.976753412
+1952,Intermediate goods,All intermediate goods,0.474002848
+1952,Intermediate goods,Feed and seed,0.486879757
+1952,Intermediate goods,Energy,1.249529839
+1952,Intermediate goods,Fertilizer and lime,0.376972398
+1952,Intermediate goods,Pesticides,0.022598939
+1952,Intermediate goods,Purchased services,0.515900208
+1952,Intermediate goods,Other intermediate,0.287195457
+1952,Total factor productivity (TFP),Total factor productivity (TFP),0.380480732
+1953,Total output,Total output,0.37715509
+1953,Livestock and products,All livestock and products,0.489259957
+1953,Livestock and products,Meat animals,0.659609877
+1953,Livestock and products,Dairy,0.500524038
+1953,Livestock and products,Poultry and eggs,0.181512287
+1953,Crops,All crops,0.333326574
+1953,Crops,Food grains,0.488028076
+1953,Crops,Feed crops,0.367169472
+1953,Crops,Oil crops,0.104504753
+1953,Crops,Vegetables and melons,0.449171873
+1953,Crops,Fruits and nuts,0.2993175
+1953,Crops,Other crops,0.466944791
+1953,Farm-related output,Farm-related output,0.202947505
+1953,Total farm inputs,Total farm inputs,0.974379256
+1953,Capital,All capital,1.222119246
+1953,Capital,Durable equipment,0.806328564
+1953,Capital,Service buildings,1.035699864
+1953,Capital,Land,1.374288274
+1953,Capital,Inventories,0.837771149
+1953,Labor,All labor,3.362526204
+1953,Labor,Hired labor,2.662122889
+1953,Labor,Self-employed and unpaid family,3.789421691
+1953,Intermediate goods,All intermediate goods,0.477929905
+1953,Intermediate goods,Feed and seed,0.500375936
+1953,Intermediate goods,Energy,1.278820284
+1953,Intermediate goods,Fertilizer and lime,0.352789471
+1953,Intermediate goods,Pesticides,0.027705329
+1953,Intermediate goods,Purchased services,0.494065128
+1953,Intermediate goods,Other intermediate,0.266259565
+1953,Total factor productivity (TFP),Total factor productivity (TFP),0.387072167
+1954,Total output,Total output,0.376779919
+1954,Livestock and products,All livestock and products,0.502672078
+1954,Livestock and products,Meat animals,0.685622036
+1954,Livestock and products,Dairy,0.513048077
+1954,Livestock and products,Poultry and eggs,0.191754845
+1954,Crops,All crops,0.326177548
+1954,Crops,Food grains,0.428474037
+1954,Crops,Feed crops,0.380089967
+1954,Crops,Oil crops,0.109900158
+1954,Crops,Vegetables and melons,0.435669423
+1954,Crops,Fruits and nuts,0.312088045
+1954,Crops,Other crops,0.427363867
+1954,Farm-related output,Farm-related output,0.188559417
+1954,Total farm inputs,Total farm inputs,0.949844375
+1954,Capital,All capital,1.232847767
+1954,Capital,Durable equipment,0.847383233
+1954,Capital,Service buildings,1.058392714
+1954,Capital,Land,1.368017965
+1954,Capital,Inventories,0.820325037
+1954,Labor,All labor,3.29519391
+1954,Labor,Hired labor,2.509897482
+1954,Labor,Self-employed and unpaid family,3.7755681
+1954,Intermediate goods,All intermediate goods,0.453126112
+1954,Intermediate goods,Feed and seed,0.463418212
+1954,Intermediate goods,Energy,1.274834296
+1954,Intermediate goods,Fertilizer and lime,0.358304977
+1954,Intermediate goods,Pesticides,0.030839899
+1954,Intermediate goods,Purchased services,0.47868196
+1954,Intermediate goods,Other intermediate,0.252253089
+1954,Total factor productivity (TFP),Total factor productivity (TFP),0.396675422
+1955,Total output,Total output,0.387157576
+1955,Livestock and products,All livestock and products,0.512866336
+1955,Livestock and products,Meat animals,0.709701208
+1955,Livestock and products,Dairy,0.520769231
+1955,Livestock and products,Poultry and eggs,0.188628114
+1955,Crops,All crops,0.337816344
+1955,Crops,Food grains,0.404732324
+1955,Crops,Feed crops,0.400524487
+1955,Crops,Oil crops,0.127357467
+1955,Crops,Vegetables and melons,0.460542297
+1955,Crops,Fruits and nuts,0.325904413
+1955,Crops,Other crops,0.435490614
+1955,Farm-related output,Farm-related output,0.180509082
+1955,Total farm inputs,Total farm inputs,0.98200767
+1955,Capital,All capital,1.235025012
+1955,Capital,Durable equipment,0.862412846
+1955,Capital,Service buildings,1.079193795
+1955,Capital,Land,1.357937642
+1955,Capital,Inventories,0.841615877
+1955,Labor,All labor,3.221858774
+1955,Labor,Hired labor,2.466677931
+1955,Labor,Self-employed and unpaid family,3.683561845
+1955,Intermediate goods,All intermediate goods,0.492918842
+1955,Intermediate goods,Feed and seed,0.520433012
+1955,Intermediate goods,Energy,1.307968049
+1955,Intermediate goods,Fertilizer and lime,0.361020664
+1955,Intermediate goods,Pesticides,0.040381419
+1955,Intermediate goods,Purchased services,0.494839661
+1955,Intermediate goods,Other intermediate,0.250553435
+1955,Total factor productivity (TFP),Total factor productivity (TFP),0.394251071
+1956,Total output,Total output,0.389583138
+1956,Livestock and products,All livestock and products,0.52452877
+1956,Livestock and products,Meat animals,0.699165117
+1956,Livestock and products,Dairy,0.534774038
+1956,Livestock and products,Poultry and eggs,0.20973896
+1956,Crops,All crops,0.334682322
+1956,Crops,Food grains,0.422988768
+1956,Crops,Feed crops,0.39420713
+1956,Crops,Oil crops,0.138524205
+1956,Crops,Vegetables and melons,0.477003319
+1956,Crops,Fruits and nuts,0.324848308
+1956,Crops,Other crops,0.410778383
+1956,Farm-related output,Farm-related output,0.195790091
+1956,Total farm inputs,Total farm inputs,0.981055601
+1956,Capital,All capital,1.234200386
+1956,Capital,Durable equipment,0.87308036
+1956,Capital,Service buildings,1.096823554
+1956,Capital,Land,1.344321286
+1956,Capital,Inventories,0.85368115
+1956,Labor,All labor,3.01960723
+1956,Labor,Hired labor,2.252522509
+1956,Labor,Self-employed and unpaid family,3.489977589
+1956,Intermediate goods,All intermediate goods,0.509174882
+1956,Intermediate goods,Feed and seed,0.540240428
+1956,Intermediate goods,Energy,1.308072224
+1956,Intermediate goods,Fertilizer and lime,0.364751262
+1956,Intermediate goods,Pesticides,0.055789108
+1956,Intermediate goods,Purchased services,0.508409978
+1956,Intermediate goods,Other intermediate,0.234591683
+1956,Total factor productivity (TFP),Total factor productivity (TFP),0.397106074
+1957,Total output,Total output,0.385134739
+1957,Livestock and products,All livestock and products,0.512483255
+1957,Livestock and products,Meat animals,0.666429984
+1957,Livestock and products,Dairy,0.539649038
+1957,Livestock and products,Poultry and eggs,0.214721127
+1957,Crops,All crops,0.332318495
+1957,Crops,Food grains,0.400663523
+1957,Crops,Feed crops,0.431249154
+1957,Crops,Oil crops,0.133760068
+1957,Crops,Vegetables and melons,0.468613231
+1957,Crops,Fruits and nuts,0.331084624
+1957,Crops,Other crops,0.346770464
+1957,Farm-related output,Farm-related output,0.221493276
+1957,Total farm inputs,Total farm inputs,0.974046365
+1957,Capital,All capital,1.220844587
+1957,Capital,Durable equipment,0.860422651
+1957,Capital,Service buildings,1.109967911
+1957,Capital,Land,1.328591222
+1957,Capital,Inventories,0.831373879
+1957,Labor,All labor,2.799911593
+1957,Labor,Hired labor,2.160936305
+1957,Labor,Self-employed and unpaid family,3.189937052
+1957,Intermediate goods,All intermediate goods,0.525404214
+1957,Intermediate goods,Feed and seed,0.56614884
+1957,Intermediate goods,Energy,1.286263598
+1957,Intermediate goods,Fertilizer and lime,0.368477203
+1957,Intermediate goods,Pesticides,0.040516096
+1957,Intermediate goods,Purchased services,0.52736375
+1957,Intermediate goods,Other intermediate,0.248562
+1957,Total factor productivity (TFP),Total factor productivity (TFP),0.395396721
+1958,Total output,Total output,0.406281095
+1958,Livestock and products,All livestock and products,0.517282412
+1958,Livestock and products,Meat animals,0.676903429
+1958,Livestock and products,Dairy,0.5388125
+1958,Livestock and products,Poultry and eggs,0.22726745
+1958,Crops,All crops,0.364423128
+1958,Crops,Food grains,0.591329312
+1958,Crops,Feed crops,0.454985801
+1958,Crops,Oil crops,0.160543677
+1958,Crops,Vegetables and melons,0.48660252
+1958,Crops,Fruits and nuts,0.306608387
+1958,Crops,Other crops,0.364108295
+1958,Farm-related output,Farm-related output,0.232304311
+1958,Total farm inputs,Total farm inputs,0.977929476
+1958,Capital,All capital,1.208074559
+1958,Capital,Durable equipment,0.84684826
+1958,Capital,Service buildings,1.121607309
+1958,Capital,Land,1.313281989
+1958,Capital,Inventories,0.858141192
+1958,Labor,All labor,2.669005886
+1958,Labor,Hired labor,2.176793452
+1958,Labor,Self-employed and unpaid family,2.965910015
+1958,Intermediate goods,All intermediate goods,0.546742382
+1958,Intermediate goods,Feed and seed,0.594679941
+1958,Intermediate goods,Energy,1.253762513
+1958,Intermediate goods,Fertilizer and lime,0.367987017
+1958,Intermediate goods,Pesticides,0.048672721
+1958,Intermediate goods,Purchased services,0.55303103
+1958,Intermediate goods,Other intermediate,0.252571865
+1958,Total factor productivity (TFP),Total factor productivity (TFP),0.415450301
+1959,Total output,Total output,0.417096088
+1959,Livestock and products,All livestock and products,0.533486034
+1959,Livestock and products,Meat animals,0.71330734
+1959,Livestock and products,Dairy,0.537754808
+1959,Livestock and products,Poultry and eggs,0.235953557
+1959,Crops,All crops,0.369484547
+1959,Crops,Food grains,0.472729332
+1959,Crops,Feed crops,0.459728403
+1959,Crops,Oil crops,0.146728156
+1959,Crops,Vegetables and melons,0.513994863
+1959,Crops,Fruits and nuts,0.333193223
+1959,Crops,Other crops,0.436723502
+1959,Farm-related output,Farm-related output,0.284006509
+1959,Total farm inputs,Total farm inputs,1.004027286
+1959,Capital,All capital,1.203755144
+1959,Capital,Durable equipment,0.850053063
+1959,Capital,Service buildings,1.131773682
+1959,Capital,Land,1.301564764
+1959,Capital,Inventories,0.889357699
+1959,Labor,All labor,2.650625151
+1959,Labor,Hired labor,2.124607454
+1959,Labor,Self-employed and unpaid family,2.969395924
+1959,Intermediate goods,All intermediate goods,0.581182548
+1959,Intermediate goods,Feed and seed,0.60648992
+1959,Intermediate goods,Energy,1.271816139
+1959,Intermediate goods,Fertilizer and lime,0.417109098
+1959,Intermediate goods,Pesticides,0.063813526
+1959,Intermediate goods,Purchased services,0.63842099
+1959,Intermediate goods,Other intermediate,0.308733526
+1959,Total factor productivity (TFP),Total factor productivity (TFP),0.41542306
+1960,Total output,Total output,0.430511718
+1960,Livestock and products,All livestock and products,0.533654913
+1960,Livestock and products,Meat animals,0.709397512
+1960,Livestock and products,Dairy,0.547841346
+1960,Livestock and products,Poultry and eggs,0.233897803
+1960,Crops,All crops,0.390496554
+1960,Crops,Food grains,0.56386257
+1960,Crops,Feed crops,0.482751217
+1960,Crops,Oil crops,0.157032458
+1960,Crops,Vegetables and melons,0.508680499
+1960,Crops,Fruits and nuts,0.355719651
+1960,Crops,Other crops,0.4566433
+1960,Farm-related output,Farm-related output,0.303983845
+1960,Total farm inputs,Total farm inputs,0.983794056
+1960,Capital,All capital,1.206107214
+1960,Capital,Durable equipment,0.857352976
+1960,Capital,Service buildings,1.156138065
+1960,Capital,Land,1.295647798
+1960,Capital,Inventories,0.900246933
+1960,Labor,All labor,2.502949706
+1960,Labor,Hired labor,2.124989778
+1960,Labor,Self-employed and unpaid family,2.727377679
+1960,Intermediate goods,All intermediate goods,0.572199255
+1960,Intermediate goods,Feed and seed,0.607252263
+1960,Intermediate goods,Energy,1.288548876
+1960,Intermediate goods,Fertilizer and lime,0.362297693
+1960,Intermediate goods,Pesticides,0.057842029
+1960,Intermediate goods,Purchased services,0.621666469
+1960,Intermediate goods,Other intermediate,0.315133437
+1960,Total factor productivity (TFP),Total factor productivity (TFP),0.437603495
+1961,Total output,Total output,0.435719283
+1961,Livestock and products,All livestock and products,0.560370211
+1961,Livestock and products,Meat animals,0.746738291
+1961,Livestock and products,Dairy,0.5640625
+1961,Livestock and products,Poultry and eggs,0.253306021
+1961,Crops,All crops,0.385532149
+1961,Crops,Food grains,0.516918522
+1961,Crops,Feed crops,0.450189641
+1961,Crops,Oil crops,0.180804884
+1961,Crops,Vegetables and melons,0.537046174
+1961,Crops,Fruits and nuts,0.369425294
+1961,Crops,Other crops,0.46379744
+1961,Farm-related output,Farm-related output,0.283499717
+1961,Total farm inputs,Total farm inputs,0.965877792
+1961,Capital,All capital,1.202059924
+1961,Capital,Durable equipment,0.842677377
+1961,Capital,Service buildings,1.178636667
+1961,Capital,Land,1.293622217
+1961,Capital,Inventories,0.918335086
+1961,Labor,All labor,2.441608075
+1961,Labor,Hired labor,2.115288129
+1961,Labor,Self-employed and unpaid family,2.63332158
+1961,Intermediate goods,All intermediate goods,0.558050879
+1961,Intermediate goods,Feed and seed,0.582502419
+1961,Intermediate goods,Energy,1.318549552
+1961,Intermediate goods,Fertilizer and lime,0.364223047
+1961,Intermediate goods,Pesticides,0.065899078
+1961,Intermediate goods,Purchased services,0.605866529
+1961,Intermediate goods,Other intermediate,0.31641511
+1961,Total factor productivity (TFP),Total factor productivity (TFP),0.451112228
+1962,Total output,Total output,0.439724216
+1962,Livestock and products,All livestock and products,0.558430343
+1962,Livestock and products,Meat animals,0.744802022
+1962,Livestock and products,Dairy,0.570129808
+1962,Livestock and products,Poultry and eggs,0.252035617
+1962,Crops,All crops,0.392730178
+1962,Crops,Food grains,0.478882909
+1962,Crops,Feed crops,0.464103393
+1962,Crops,Oil crops,0.182387016
+1962,Crops,Vegetables and melons,0.545252811
+1962,Crops,Fruits and nuts,0.377145376
+1962,Crops,Other crops,0.494174872
+1962,Farm-related output,Farm-related output,0.288931352
+1962,Total farm inputs,Total farm inputs,0.986784637
+1962,Capital,All capital,1.199534259
+1962,Capital,Durable equipment,0.83075603
+1962,Capital,Service buildings,1.203151992
+1962,Capital,Land,1.292728439
+1962,Capital,Inventories,0.944239015
+1962,Labor,All labor,2.45011327
+1962,Labor,Hired labor,2.111733774
+1962,Labor,Self-employed and unpaid family,2.649437092
+1962,Intermediate goods,All intermediate goods,0.584111023
+1962,Intermediate goods,Feed and seed,0.603465224
+1962,Intermediate goods,Energy,1.336013259
+1962,Intermediate goods,Fertilizer and lime,0.467614798
+1962,Intermediate goods,Pesticides,0.073576736
+1962,Intermediate goods,Purchased services,0.61366859
+1962,Intermediate goods,Other intermediate,0.332152534
+1962,Total factor productivity (TFP),Total factor productivity (TFP),0.445613156
+1963,Total output,Total output,0.455134303
+1963,Livestock and products,All livestock and products,0.573327509
+1963,Livestock and products,Meat animals,0.783694477
+1963,Livestock and products,Dairy,0.568
+1963,Livestock and products,Poultry and eggs,0.257325356
+1963,Crops,All crops,0.407835294
+1963,Crops,Food grains,0.501401345
+1963,Crops,Feed crops,0.489183229
+1963,Crops,Oil crops,0.190428261
+1963,Crops,Vegetables and melons,0.547447564
+1963,Crops,Fruits and nuts,0.362880176
+1963,Crops,Other crops,0.517348653
+1963,Farm-related output,Farm-related output,0.314299565
+1963,Total farm inputs,Total farm inputs,0.99493093
+1963,Capital,All capital,1.201923552
+1963,Capital,Durable equipment,0.830932501
+1963,Capital,Service buildings,1.231264513
+1963,Capital,Land,1.290876809
+1963,Capital,Inventories,0.972073403
+1963,Labor,All labor,2.347875282
+1963,Labor,Hired labor,2.10820761
+1963,Labor,Self-employed and unpaid family,2.48556889
+1963,Intermediate goods,All intermediate goods,0.605357355
+1963,Intermediate goods,Feed and seed,0.627709686
+1963,Intermediate goods,Energy,1.352560407
+1963,Intermediate goods,Fertilizer and lime,0.538176808
+1963,Intermediate goods,Pesticides,0.076569668
+1963,Intermediate goods,Purchased services,0.612655171
+1963,Intermediate goods,Other intermediate,0.348094864
+1963,Total factor productivity (TFP),Total factor productivity (TFP),0.457453165
+1964,Total output,Total output,0.452725399
+1964,Livestock and products,All livestock and products,0.592787761
+1964,Livestock and products,Meat animals,0.821907187
+1964,Livestock and products,Dairy,0.579221154
+1964,Livestock and products,Poultry and eggs,0.266811301
+1964,Crops,All crops,0.395418484
+1964,Crops,Food grains,0.555656562
+1964,Crops,Feed crops,0.448545899
+1964,Crops,Oil crops,0.191284562
+1964,Crops,Vegetables and melons,0.528498375
+1964,Crops,Fruits and nuts,0.370137688
+1964,Crops,Other crops,0.512423817
+1964,Farm-related output,Farm-related output,0.300411187
+1964,Total farm inputs,Total farm inputs,0.979422447
+1964,Capital,All capital,1.206603781
+1964,Capital,Durable equipment,0.840386626
+1964,Capital,Service buildings,1.257097969
+1964,Capital,Land,1.286675662
+1964,Capital,Inventories,0.987446721
+1964,Labor,All labor,2.206058993
+1964,Labor,Hired labor,1.901225704
+1964,Labor,Self-employed and unpaid family,2.385287908
+1964,Intermediate goods,All intermediate goods,0.602181907
+1964,Intermediate goods,Feed and seed,0.615210561
+1964,Intermediate goods,Energy,1.381349031
+1964,Intermediate goods,Fertilizer and lime,0.599999835
+1964,Intermediate goods,Pesticides,0.076211915
+1964,Intermediate goods,Purchased services,0.598325939
+1964,Intermediate goods,Other intermediate,0.371103147
+1964,Total factor productivity (TFP),Total factor productivity (TFP),0.462237108
+1965,Total output,Total output,0.464543037
+1965,Livestock and products,All livestock and products,0.579740901
+1965,Livestock and products,Meat animals,0.793645618
+1965,Livestock and products,Dairy,0.568298077
+1965,Livestock and products,Poultry and eggs,0.275289966
+1965,Crops,All crops,0.421013455
+1965,Crops,Food grains,0.570968341
+1965,Crops,Feed crops,0.50679282
+1965,Crops,Oil crops,0.225400834
+1965,Crops,Vegetables and melons,0.53314588
+1965,Crops,Fruits and nuts,0.38755482
+1965,Crops,Other crops,0.48408505
+1965,Farm-related output,Farm-related output,0.293920775
+1965,Total farm inputs,Total farm inputs,0.966925718
+1965,Capital,All capital,1.209633651
+1965,Capital,Durable equipment,0.853855359
+1965,Capital,Service buildings,1.280852983
+1965,Capital,Land,1.27905227
+1965,Capital,Inventories,0.956542424
+1965,Labor,All labor,2.15180848
+1965,Labor,Hired labor,1.789884561
+1965,Labor,Self-employed and unpaid family,2.366845215
+1965,Intermediate goods,All intermediate goods,0.592685064
+1965,Intermediate goods,Feed and seed,0.60278244
+1965,Intermediate goods,Energy,1.402032551
+1965,Intermediate goods,Fertilizer and lime,0.53420432
+1965,Intermediate goods,Pesticides,0.082712012
+1965,Intermediate goods,Purchased services,0.606729937
+1965,Intermediate goods,Other intermediate,0.369055008
+1965,Total factor productivity (TFP),Total factor productivity (TFP),0.480433014
+1966,Total output,Total output,0.463013354
+1966,Livestock and products,All livestock and products,0.592412851
+1966,Livestock and products,Meat animals,0.824034965
+1966,Livestock and products,Dairy,0.550192308
+1966,Livestock and products,Poultry and eggs,0.290393649
+1966,Crops,All crops,0.412763203
+1966,Crops,Food grains,0.574612602
+1966,Crops,Feed crops,0.505626978
+1966,Crops,Oil crops,0.231270927
+1966,Crops,Vegetables and melons,0.566327257
+1966,Crops,Fruits and nuts,0.398967135
+1966,Crops,Other crops,0.411028777
+1966,Farm-related output,Farm-related output,0.280463701
+1966,Total farm inputs,Total farm inputs,0.987742796
+1966,Capital,All capital,1.214961671
+1966,Capital,Durable equipment,0.876190268
+1966,Capital,Service buildings,1.30618326
+1966,Capital,Land,1.268099045
+1966,Capital,Inventories,0.997986631
+1966,Labor,All labor,1.999189969
+1966,Labor,Hired labor,1.612283927
+1966,Labor,Self-employed and unpaid family,2.230360173
+1966,Intermediate goods,All intermediate goods,0.640803535
+1966,Intermediate goods,Feed and seed,0.650736814
+1966,Intermediate goods,Energy,1.422501336
+1966,Intermediate goods,Fertilizer and lime,0.740122549
+1966,Intermediate goods,Pesticides,0.088601198
+1966,Intermediate goods,Purchased services,0.612424947
+1966,Intermediate goods,Other intermediate,0.376590736
+1966,Total factor productivity (TFP),Total factor productivity (TFP),0.468759029
+1967,Total output,Total output,0.478345158
+1967,Livestock and products,All livestock and products,0.602902461
+1967,Livestock and products,Meat animals,0.849171501
+1967,Livestock and products,Dairy,0.545995192
+1967,Livestock and products,Poultry and eggs,0.304907292
+1967,Crops,All crops,0.431540342
+1967,Crops,Food grains,0.648202702
+1967,Crops,Feed crops,0.552851598
+1967,Crops,Oil crops,0.238298173
+1967,Crops,Vegetables and melons,0.593983275
+1967,Crops,Fruits and nuts,0.397455275
+1967,Crops,Other crops,0.37409877
+1967,Farm-related output,Farm-related output,0.287432498
+1967,Total farm inputs,Total farm inputs,0.980762663
+1967,Capital,All capital,1.221650681
+1967,Capital,Durable equipment,0.906757433
+1967,Capital,Service buildings,1.334083461
+1967,Capital,Land,1.254034055
+1967,Capital,Inventories,1.005934947
+1967,Labor,All labor,1.879006662
+1967,Labor,Hired labor,1.497819352
+1967,Labor,Self-employed and unpaid family,2.107102545
+1967,Intermediate goods,All intermediate goods,0.648172102
+1967,Intermediate goods,Feed and seed,0.655713723
+1967,Intermediate goods,Energy,1.416925921
+1967,Intermediate goods,Fertilizer and lime,0.692706604
+1967,Intermediate goods,Pesticides,0.128563429
+1967,Intermediate goods,Purchased services,0.623512224
+1967,Intermediate goods,Other intermediate,0.371098093
+1967,Total factor productivity (TFP),Total factor productivity (TFP),0.487727741
+1968,Total output,Total output,0.485642764
+1968,Livestock and products,All livestock and products,0.601611196
+1968,Livestock and products,Meat animals,0.858837864
+1968,Livestock and products,Dairy,0.541168269
+1968,Livestock and products,Poultry and eggs,0.295606368
+1968,Crops,All crops,0.445349784
+1968,Crops,Food grains,0.687130013
+1968,Crops,Feed crops,0.537090254
+1968,Crops,Oil crops,0.272387052
+1968,Crops,Vegetables and melons,0.63059362
+1968,Crops,Fruits and nuts,0.390076368
+1968,Crops,Other crops,0.415129316
+1968,Farm-related output,Farm-related output,0.274192483
+1968,Total farm inputs,Total farm inputs,0.976820059
+1968,Capital,All capital,1.232570767
+1968,Capital,Durable equipment,0.943483336
+1968,Capital,Service buildings,1.370853715
+1968,Capital,Land,1.237169896
+1968,Capital,Inventories,1.027980804
+1968,Labor,All labor,1.871789989
+1968,Labor,Hired labor,1.449588571
+1968,Labor,Self-employed and unpaid family,2.125131018
+1968,Intermediate goods,All intermediate goods,0.640747008
+1968,Intermediate goods,Feed and seed,0.663456202
+1968,Intermediate goods,Energy,1.420169979
+1968,Intermediate goods,Fertilizer and lime,0.577282796
+1968,Intermediate goods,Pesticides,0.128448188
+1968,Intermediate goods,Purchased services,0.621180046
+1968,Intermediate goods,Other intermediate,0.381276918
+1968,Total factor productivity (TFP),Total factor productivity (TFP),0.497167068
+1969,Total output,Total output,0.495272385
+1969,Livestock and products,All livestock and products,0.604336197
+1969,Livestock and products,Meat animals,0.865494397
+1969,Livestock and products,Dairy,0.537466346
+1969,Livestock and products,Poultry and eggs,0.302423502
+1969,Crops,All crops,0.461864642
+1969,Crops,Food grains,0.633957301
+1969,Crops,Feed crops,0.556138283
+1969,Crops,Oil crops,0.275543615
+1969,Crops,Vegetables and melons,0.604702502
+1969,Crops,Fruits and nuts,0.463172775
+1969,Crops,Other crops,0.467339245
+1969,Farm-related output,Farm-related output,0.253865267
+1969,Total farm inputs,Total farm inputs,0.980127571
+1969,Capital,All capital,1.231454894
+1969,Capital,Durable equipment,0.959053563
+1969,Capital,Service buildings,1.39657323
+1969,Capital,Land,1.218019553
+1969,Capital,Inventories,1.046732527
+1969,Labor,All labor,1.839294101
+1969,Labor,Hired labor,1.462272278
+1969,Labor,Self-employed and unpaid family,2.065026146
+1969,Intermediate goods,All intermediate goods,0.651601056
+1969,Intermediate goods,Feed and seed,0.697990564
+1969,Intermediate goods,Energy,1.441037457
+1969,Intermediate goods,Fertilizer and lime,0.56249725
+1969,Intermediate goods,Pesticides,0.131096159
+1969,Intermediate goods,Purchased services,0.593686982
+1969,Intermediate goods,Other intermediate,0.381080426
+1969,Total factor productivity (TFP),Total factor productivity (TFP),0.505314206
+1970,Total output,Total output,0.488539296
+1970,Livestock and products,All livestock and products,0.624885208
+1970,Livestock and products,Meat animals,0.904646417
+1970,Livestock and products,Dairy,0.543264423
+1970,Livestock and products,Poultry and eggs,0.314901027
+1970,Crops,All crops,0.438075519
+1970,Crops,Food grains,0.593347187
+1970,Crops,Feed crops,0.5164387
+1970,Crops,Oil crops,0.279681961
+1970,Crops,Vegetables and melons,0.592621519
+1970,Crops,Fruits and nuts,0.439218647
+1970,Crops,Other crops,0.439502803
+1970,Farm-related output,Farm-related output,0.243166044
+1970,Total farm inputs,Total farm inputs,0.980737357
+1970,Capital,All capital,1.225472084
+1970,Capital,Durable equipment,0.966592078
+1970,Capital,Service buildings,1.422586978
+1970,Capital,Land,1.197458004
+1970,Capital,Inventories,1.058468042
+1970,Labor,All labor,1.759648765
+1970,Labor,Hired labor,1.473463661
+1970,Labor,Self-employed and unpaid family,1.930012621
+1970,Intermediate goods,All intermediate goods,0.668917244
+1970,Intermediate goods,Feed and seed,0.716800329
+1970,Intermediate goods,Energy,1.443406474
+1970,Intermediate goods,Fertilizer and lime,0.691093118
+1970,Intermediate goods,Pesticides,0.134900759
+1970,Intermediate goods,Purchased services,0.575119158
+1970,Intermediate goods,Other intermediate,0.361681191
+1970,Total factor productivity (TFP),Total factor productivity (TFP),0.498134687
+1971,Total output,Total output,0.521454929
+1971,Livestock and products,All livestock and products,0.63128946
+1971,Livestock and products,Meat animals,0.913716933
+1971,Livestock and products,Dairy,0.551990385
+1971,Livestock and products,Poultry and eggs,0.3204387
+1971,Crops,All crops,0.490269492
+1971,Crops,Food grains,0.69705916
+1971,Crops,Feed crops,0.62882312
+1971,Crops,Oil crops,0.307964824
+1971,Crops,Vegetables and melons,0.604119256
+1971,Crops,Fruits and nuts,0.456971668
+1971,Crops,Other crops,0.429004168
+1971,Farm-related output,Farm-related output,0.247741567
+1971,Total farm inputs,Total farm inputs,0.971154909
+1971,Capital,All capital,1.218157156
+1971,Capital,Durable equipment,0.975984133
+1971,Capital,Service buildings,1.451875878
+1971,Capital,Land,1.177335547
+1971,Capital,Inventories,1.03973181
+1971,Labor,All labor,1.731711787
+1971,Labor,Hired labor,1.456993338
+1971,Labor,Self-employed and unpaid family,1.895147001
+1971,Intermediate goods,All intermediate goods,0.662714774
+1971,Intermediate goods,Feed and seed,0.700181718
+1971,Intermediate goods,Energy,1.414387706
+1971,Intermediate goods,Fertilizer and lime,0.682021995
+1971,Intermediate goods,Pesticides,0.149489144
+1971,Intermediate goods,Purchased services,0.581154455
+1971,Intermediate goods,Other intermediate,0.371497702
+1971,Total factor productivity (TFP),Total factor productivity (TFP),0.536943102
+1972,Total output,Total output,0.523453092
+1972,Livestock and products,All livestock and products,0.63367304
+1972,Livestock and products,Meat animals,0.903918889
+1972,Livestock and products,Dairy,0.560033654
+1972,Livestock and products,Poultry and eggs,0.329205611
+1972,Crops,All crops,0.492485866
+1972,Crops,Food grains,0.666296145
+1972,Crops,Feed crops,0.613173986
+1972,Crops,Oil crops,0.314526349
+1972,Crops,Vegetables and melons,0.61321074
+1972,Crops,Fruits and nuts,0.410864099
+1972,Crops,Other crops,0.490251911
+1972,Farm-related output,Farm-related output,0.244628261
+1972,Total farm inputs,Total farm inputs,0.978582988
+1972,Capital,All capital,1.211482851
+1972,Capital,Durable equipment,0.979250247
+1972,Capital,Service buildings,1.477066943
+1972,Capital,Land,1.159744258
+1972,Capital,Inventories,1.100197115
+1972,Labor,All labor,1.724012478
+1972,Labor,Hired labor,1.451086469
+1972,Labor,Self-employed and unpaid family,1.886373401
+1972,Intermediate goods,All intermediate goods,0.678051115
+1972,Intermediate goods,Feed and seed,0.722208512
+1972,Intermediate goods,Energy,1.400225661
+1972,Intermediate goods,Fertilizer and lime,0.668024225
+1972,Intermediate goods,Pesticides,0.179982719
+1972,Intermediate goods,Purchased services,0.58087358
+1972,Intermediate goods,Other intermediate,0.379261742
+1972,Total factor productivity (TFP),Total factor productivity (TFP),0.53490925
+1973,Total output,Total output,0.548116615
+1973,Livestock and products,All livestock and products,0.646268105
+1973,Livestock and products,Meat animals,0.94858493
+1973,Livestock and products,Dairy,0.539139423
+1973,Livestock and products,Poultry and eggs,0.3189657
+1973,Crops,All crops,0.523760973
+1973,Crops,Food grains,0.734274398
+1973,Crops,Feed crops,0.633105094
+1973,Crops,Oil crops,0.374994345
+1973,Crops,Vegetables and melons,0.608865955
+1973,Crops,Fruits and nuts,0.497508128
+1973,Crops,Other crops,0.489049719
+1973,Farm-related output,Farm-related output,0.290783274
+1973,Total farm inputs,Total farm inputs,0.999592285
+1973,Capital,All capital,1.208167974
+1973,Capital,Durable equipment,0.996884642
+1973,Capital,Service buildings,1.491630079
+1973,Capital,Land,1.146774683
+1973,Capital,Inventories,1.119714923
+1973,Labor,All labor,1.708919827
+1973,Labor,Hired labor,1.472525371
+1973,Labor,Self-employed and unpaid family,1.849077593
+1973,Intermediate goods,All intermediate goods,0.716174382
+1973,Intermediate goods,Feed and seed,0.728705551
+1973,Intermediate goods,Energy,1.416792834
+1973,Intermediate goods,Fertilizer and lime,0.993393691
+1973,Intermediate goods,Pesticides,0.177895585
+1973,Intermediate goods,Purchased services,0.621812162
+1973,Intermediate goods,Other intermediate,0.411102164
+1973,Total factor productivity (TFP),Total factor productivity (TFP),0.548340181
+1974,Total output,Total output,0.518847754
+1974,Livestock and products,All livestock and products,0.649719055
+1974,Livestock and products,Meat animals,0.952122312
+1974,Livestock and products,Dairy,0.5403125
+1974,Livestock and products,Poultry and eggs,0.321427884
+1974,Crops,All crops,0.475498905
+1974,Crops,Food grains,0.779720554
+1974,Crops,Feed crops,0.541970942
+1974,Crops,Oil crops,0.302231586
+1974,Crops,Vegetables and melons,0.606134737
+1974,Crops,Fruits and nuts,0.509775066
+1974,Crops,Other crops,0.469195589
+1974,Farm-related output,Farm-related output,0.302058555
+1974,Total farm inputs,Total farm inputs,0.989981781
+1974,Capital,All capital,1.217411043
+1974,Capital,Durable equipment,1.051736577
+1974,Capital,Service buildings,1.523138263
+1974,Capital,Land,1.140446524
+1974,Capital,Inventories,1.165099335
+1974,Labor,All labor,1.704178244
+1974,Labor,Hired labor,1.567239133
+1974,Labor,Self-employed and unpaid family,1.783800081
+1974,Intermediate goods,All intermediate goods,0.697657713
+1974,Intermediate goods,Feed and seed,0.724223392
+1974,Intermediate goods,Energy,1.352202149
+1974,Intermediate goods,Fertilizer and lime,0.801104945
+1974,Intermediate goods,Pesticides,0.157149605
+1974,Intermediate goods,Purchased services,0.628865346
+1974,Intermediate goods,Other intermediate,0.511244057
+1974,Total factor productivity (TFP),Total factor productivity (TFP),0.524098286
+1975,Total output,Total output,0.562187564
+1975,Livestock and products,All livestock and products,0.627207599
+1975,Livestock and products,Meat animals,0.895485152
+1975,Livestock and products,Dairy,0.540081731
+1975,Livestock and products,Poultry and eggs,0.31426197
+1975,Crops,All crops,0.544116341
+1975,Crops,Food grains,0.924312141
+1975,Crops,Feed crops,0.628195021
+1975,Crops,Oil crops,0.369103159
+1975,Crops,Vegetables and melons,0.644710993
+1975,Crops,Fruits and nuts,0.546969632
+1975,Crops,Other crops,0.500195536
+1975,Farm-related output,Farm-related output,0.446287699
+1975,Total farm inputs,Total farm inputs,0.977161969
+1975,Capital,All capital,1.233421437
+1975,Capital,Durable equipment,1.094743045
+1975,Capital,Service buildings,1.563696343
+1975,Capital,Land,1.141658098
+1975,Capital,Inventories,1.126058332
+1975,Labor,All labor,1.673020663
+1975,Labor,Hired labor,1.591743807
+1975,Labor,Self-employed and unpaid family,1.718822092
+1975,Intermediate goods,All intermediate goods,0.677977956
+1975,Intermediate goods,Feed and seed,0.685816155
+1975,Intermediate goods,Energy,1.593760102
+1975,Intermediate goods,Fertilizer and lime,0.722506747
+1975,Intermediate goods,Pesticides,0.156244305
+1975,Intermediate goods,Purchased services,0.651520851
+1975,Intermediate goods,Other intermediate,0.492112755
+1975,Total factor productivity (TFP),Total factor productivity (TFP),0.575326898
+1976,Total output,Total output,0.564757986
+1976,Livestock and products,All livestock and products,0.647730207
+1976,Livestock and products,Meat animals,0.916323157
+1976,Livestock and products,Dairy,0.5635625
+1976,Livestock and products,Poultry and eggs,0.334094063
+1976,Crops,All crops,0.540372988
+1976,Crops,Food grains,0.919340484
+1976,Crops,Feed crops,0.634394783
+1976,Crops,Oil crops,0.315419461
+1976,Crops,Vegetables and melons,0.663748648
+1976,Crops,Fruits and nuts,0.530286423
+1976,Crops,Other crops,0.531813255
+1976,Farm-related output,Farm-related output,0.401895508
+1976,Total farm inputs,Total farm inputs,1.011762461
+1976,Capital,All capital,1.246240916
+1976,Capital,Durable equipment,1.122365373
+1976,Capital,Service buildings,1.577964329
+1976,Capital,Land,1.147237169
+1976,Capital,Inventories,1.198239679
+1976,Labor,All labor,1.64885248
+1976,Labor,Hired labor,1.609562678
+1976,Labor,Self-employed and unpaid family,1.669141866
+1976,Intermediate goods,All intermediate goods,0.72482481
+1976,Intermediate goods,Feed and seed,0.71799541
+1976,Intermediate goods,Energy,1.795158819
+1976,Intermediate goods,Fertilizer and lime,0.842182593
+1976,Intermediate goods,Pesticides,0.185322893
+1976,Intermediate goods,Purchased services,0.682423924
+1976,Intermediate goods,Other intermediate,0.451094977
+1976,Total factor productivity (TFP),Total factor productivity (TFP),0.558192272
+1977,Total output,Total output,0.59133232
+1977,Livestock and products,All livestock and products,0.642299496
+1977,Livestock and products,Meat animals,0.875061484
+1977,Livestock and products,Dairy,0.576110577
+1977,Livestock and products,Poultry and eggs,0.343079722
+1977,Crops,All crops,0.586225145
+1977,Crops,Food grains,0.86205
+1977,Crops,Feed crops,0.675545498
+1977,Crops,Oil crops,0.427983398
+1977,Crops,Vegetables and melons,0.681979063
+1977,Crops,Fruits and nuts,0.561127706
+1977,Crops,Other crops,0.560869891
+1977,Farm-related output,Farm-related output,0.407065664
+1977,Total farm inputs,Total farm inputs,0.991867628
+1977,Capital,All capital,1.26159101
+1977,Capital,Durable equipment,1.159091956
+1977,Capital,Service buildings,1.602920514
+1977,Capital,Land,1.153122938
+1977,Capital,Inventories,1.169622377
+1977,Labor,All labor,1.604298603
+1977,Labor,Hired labor,1.570110755
+1977,Labor,Self-employed and unpaid family,1.621579187
+1977,Intermediate goods,All intermediate goods,0.699618196
+1977,Intermediate goods,Feed and seed,0.688197044
+1977,Intermediate goods,Energy,1.885103708
+1977,Intermediate goods,Fertilizer and lime,0.727246713
+1977,Intermediate goods,Pesticides,0.159479444
+1977,Intermediate goods,Purchased services,0.702566324
+1977,Intermediate goods,Other intermediate,0.447803028
+1977,Total factor productivity (TFP),Total factor productivity (TFP),0.596180683
+1978,Total output,Total output,0.598702696
+1978,Livestock and products,All livestock and products,0.633883359
+1978,Livestock and products,Meat animals,0.847823592
+1978,Livestock and products,Dairy,0.571129808
+1978,Livestock and products,Poultry and eggs,0.359056087
+1978,Crops,All crops,0.601621129
+1978,Crops,Food grains,0.80647313
+1978,Crops,Feed crops,0.725642256
+1978,Crops,Oil crops,0.451902107
+1978,Crops,Vegetables and melons,0.712261054
+1978,Crops,Fruits and nuts,0.555939345
+1978,Crops,Other crops,0.52972991
+1978,Farm-related output,Farm-related output,0.433613588
+1978,Total farm inputs,Total farm inputs,1.062462904
+1978,Capital,All capital,1.27479418
+1978,Capital,Durable equipment,1.189108471
+1978,Capital,Service buildings,1.630774607
+1978,Capital,Land,1.155254056
+1978,Capital,Inventories,1.218648626
+1978,Labor,All labor,1.577467481
+1978,Labor,Hired labor,1.476362797
+1978,Labor,Self-employed and unpaid family,1.635561152
+1978,Intermediate goods,All intermediate goods,0.799897812
+1978,Intermediate goods,Feed and seed,0.786868664
+1978,Intermediate goods,Energy,1.97878409
+1978,Intermediate goods,Fertilizer and lime,0.739875294
+1978,Intermediate goods,Pesticides,0.193365543
+1978,Intermediate goods,Purchased services,0.848158647
+1978,Intermediate goods,Other intermediate,0.697541314
+1978,Total factor productivity (TFP),Total factor productivity (TFP),0.563504565
+1979,Total output,Total output,0.634423774
+1979,Livestock and products,All livestock and products,0.642162486
+1979,Livestock and products,Meat animals,0.841604322
+1979,Livestock and products,Dairy,0.581100962
+1979,Livestock and products,Poultry and eggs,0.387049027
+1979,Crops,All crops,0.659067326
+1979,Crops,Food grains,0.940513888
+1979,Crops,Feed crops,0.764236899
+1979,Crops,Oil crops,0.549318434
+1979,Crops,Vegetables and melons,0.743641854
+1979,Crops,Fruits and nuts,0.594140227
+1979,Crops,Other crops,0.562488557
+1979,Farm-related output,Farm-related output,0.437804834
+1979,Total farm inputs,Total farm inputs,1.097454104
+1979,Capital,All capital,1.279426925
+1979,Capital,Durable equipment,1.231516028
+1979,Capital,Service buildings,1.567766353
+1979,Capital,Land,1.150859944
+1979,Capital,Inventories,1.235141241
+1979,Labor,All labor,1.603240509
+1979,Labor,Hired labor,1.532025823
+1979,Labor,Self-employed and unpaid family,1.643074266
+1979,Intermediate goods,All intermediate goods,0.844940445
+1979,Intermediate goods,Feed and seed,0.836834211
+1979,Intermediate goods,Energy,1.811193643
+1979,Intermediate goods,Fertilizer and lime,0.786726628
+1979,Intermediate goods,Pesticides,0.243166359
+1979,Intermediate goods,Purchased services,0.89190809
+1979,Intermediate goods,Other intermediate,0.814797409
+1979,Total factor productivity (TFP),Total factor productivity (TFP),0.578086839
+1980,Total output,Total output,0.613689159
+1980,Livestock and products,All livestock and products,0.672939237
+1980,Livestock and products,Meat animals,0.898455278
+1980,Livestock and products,Dairy,0.606091346
+1980,Livestock and products,Poultry and eggs,0.392889651
+1980,Crops,All crops,0.599807218
+1980,Crops,Food grains,1.046501734
+1980,Crops,Feed crops,0.654067058
+1980,Crops,Oil crops,0.425611198
+1980,Crops,Vegetables and melons,0.748157258
+1980,Crops,Fruits and nuts,0.646037371
+1980,Crops,Other crops,0.53700138
+1980,Farm-related output,Farm-related output,0.466906925
+1980,Total farm inputs,Total farm inputs,1.108222933
+1980,Capital,All capital,1.295957297
+1980,Capital,Durable equipment,1.27482726
+1980,Capital,Service buildings,1.658649343
+1980,Capital,Land,1.141633422
+1980,Capital,Inventories,1.305872649
+1980,Labor,All labor,1.562436087
+1980,Labor,Hired labor,1.519712607
+1980,Labor,Self-employed and unpaid family,1.585006827
+1980,Intermediate goods,All intermediate goods,0.860793896
+1980,Intermediate goods,Feed and seed,0.878270986
+1980,Intermediate goods,Energy,1.764694636
+1980,Intermediate goods,Fertilizer and lime,0.966827269
+1980,Intermediate goods,Pesticides,0.237037256
+1980,Intermediate goods,Purchased services,0.815700878
+1980,Intermediate goods,Other intermediate,0.684333986
+1980,Total factor productivity (TFP),Total factor productivity (TFP),0.553759663
+1981,Total output,Total output,0.668112349
+1981,Livestock and products,All livestock and products,0.689997793
+1981,Livestock and products,Meat animals,0.906802928
+1981,Livestock and products,Dairy,0.627245192
+1981,Livestock and products,Poultry and eggs,0.407921127
+1981,Crops,All crops,0.685108855
+1981,Crops,Food grains,1.236483942
+1981,Crops,Feed crops,0.777341506
+1981,Crops,Oil crops,0.473026415
+1981,Crops,Vegetables and melons,0.756431942
+1981,Crops,Fruits and nuts,0.634748803
+1981,Crops,Other crops,0.635504641
+1981,Farm-related output,Farm-related output,0.433729281
+1981,Total farm inputs,Total farm inputs,1.070337265
+1981,Capital,All capital,1.283208823
+1981,Capital,Durable equipment,1.277823513
+1981,Capital,Service buildings,1.634656945
+1981,Capital,Land,1.130352248
+1981,Capital,Inventories,1.227401755
+1981,Labor,All labor,1.55923689
+1981,Labor,Hired labor,1.512844628
+1981,Labor,Self-employed and unpaid family,1.584052507
+1981,Intermediate goods,All intermediate goods,0.813518953
+1981,Intermediate goods,Feed and seed,0.840493592
+1981,Intermediate goods,Energy,1.693672701
+1981,Intermediate goods,Fertilizer and lime,0.837651426
+1981,Intermediate goods,Pesticides,0.263650387
+1981,Intermediate goods,Purchased services,0.764677302
+1981,Intermediate goods,Other intermediate,0.526888502
+1981,Total factor productivity (TFP),Total factor productivity (TFP),0.624207314
+1982,Total output,Total output,0.677703111
+1982,Livestock and products,All livestock and products,0.684416865
+1982,Livestock and products,Meat animals,0.891019973
+1982,Livestock and products,Dairy,0.640115385
+1982,Livestock and products,Poultry and eggs,0.409351118
+1982,Crops,All crops,0.692518666
+1982,Crops,Food grains,1.199377671
+1982,Crops,Feed crops,0.794374653
+1982,Crops,Oil crops,0.524399697
+1982,Crops,Vegetables and melons,0.798059534
+1982,Crops,Fruits and nuts,0.632253055
+1982,Crops,Other crops,0.582428742
+1982,Farm-related output,Farm-related output,0.584651469
+1982,Total farm inputs,Total farm inputs,1.040707349
+1982,Capital,All capital,1.263605529
+1982,Capital,Durable equipment,1.256195875
+1982,Capital,Service buildings,1.461506689
+1982,Capital,Land,1.119752256
+1982,Capital,Inventories,1.314173101
+1982,Labor,All labor,1.447455997
+1982,Labor,Hired labor,1.357570783
+1982,Labor,Self-employed and unpaid family,1.499126455
+1982,Intermediate goods,All intermediate goods,0.796082352
+1982,Intermediate goods,Feed and seed,0.856144994
+1982,Intermediate goods,Energy,1.590994566
+1982,Intermediate goods,Fertilizer and lime,0.62371022
+1982,Intermediate goods,Pesticides,0.24077895
+1982,Intermediate goods,Purchased services,0.796708689
+1982,Intermediate goods,Other intermediate,0.557743097
+1982,Total factor productivity (TFP),Total factor productivity (TFP),0.651194701
+1983,Total output,Total output,0.582354688
+1983,Livestock and products,All livestock and products,0.692156445
+1983,Livestock and products,Meat animals,0.901588278
+1983,Livestock and products,Dairy,0.65975
+1983,Livestock and products,Poultry and eggs,0.412486499
+1983,Crops,All crops,0.529793673
+1983,Crops,Food grains,1.016231675
+1983,Crops,Feed crops,0.515353055
+1983,Crops,Oil crops,0.393569772
+1983,Crops,Vegetables and melons,0.791678572
+1983,Crops,Fruits and nuts,0.628102786
+1983,Crops,Other crops,0.491899872
+1983,Farm-related output,Farm-related output,0.582747854
+1983,Total farm inputs,Total farm inputs,1.037101759
+1983,Capital,All capital,1.247583014
+1983,Capital,Durable equipment,1.200218095
+1983,Capital,Service buildings,1.570782591
+1983,Capital,Land,1.111864866
+1983,Capital,Inventories,1.290841486
+1983,Labor,All labor,1.428796159
+1983,Labor,Hired labor,1.499484247
+1983,Labor,Self-employed and unpaid family,1.382037879
+1983,Intermediate goods,All intermediate goods,0.799359028
+1983,Intermediate goods,Feed and seed,0.867274086
+1983,Intermediate goods,Energy,1.545475598
+1983,Intermediate goods,Fertilizer and lime,0.642212384
+1983,Intermediate goods,Pesticides,0.217809473
+1983,Intermediate goods,Purchased services,0.778016474
+1983,Intermediate goods,Other intermediate,0.762794367
+1983,Total factor productivity (TFP),Total factor productivity (TFP),0.561521261
+1984,Total output,Total output,0.661705178
+1984,Livestock and products,All livestock and products,0.682176763
+1984,Livestock and products,Meat animals,0.886959754
+1984,Livestock and products,Dairy,0.636639423
+1984,Livestock and products,Poultry and eggs,0.422664301
+1984,Crops,All crops,0.670409248
+1984,Crops,Food grains,1.125762703
+1984,Crops,Feed crops,0.764001657
+1984,Crops,Oil crops,0.459398065
+1984,Crops,Vegetables and melons,0.813665845
+1984,Crops,Fruits and nuts,0.624272516
+1984,Crops,Other crops,0.620251891
+1984,Farm-related output,Farm-related output,0.508188235
+1984,Total farm inputs,Total farm inputs,1.002669744
+1984,Capital,All capital,1.215917325
+1984,Capital,Durable equipment,1.144786862
+1984,Capital,Service buildings,1.637803854
+1984,Capital,Land,1.10614326
+1984,Capital,Inventories,1.14299024
+1984,Labor,All labor,1.386561417
+1984,Labor,Hired labor,1.396977455
+1984,Labor,Self-employed and unpaid family,1.376968607
+1984,Intermediate goods,All intermediate goods,0.768854745
+1984,Intermediate goods,Feed and seed,0.777539669
+1984,Intermediate goods,Energy,1.598796128
+1984,Intermediate goods,Fertilizer and lime,0.665859554
+1984,Intermediate goods,Pesticides,0.266888743
+1984,Intermediate goods,Purchased services,0.758999348
+1984,Intermediate goods,Other intermediate,0.902752009
+1984,Total factor productivity (TFP),Total factor productivity (TFP),0.659943298
+1985,Total output,Total output,0.690957427
+1985,Livestock and products,All livestock and products,0.698952517
+1985,Livestock and products,Meat animals,0.873112492
+1985,Livestock and products,Dairy,0.675759615
+1985,Livestock and products,Poultry and eggs,0.44200243
+1985,Crops,All crops,0.703372856
+1985,Crops,Food grains,1.055895393
+1985,Crops,Feed crops,0.841629906
+1985,Crops,Oil crops,0.504912282
+1985,Crops,Vegetables and melons,0.859531601
+1985,Crops,Fruits and nuts,0.616416325
+1985,Crops,Other crops,0.614696551
+1985,Farm-related output,Farm-related output,0.58094614
+1985,Total farm inputs,Total farm inputs,0.976460528
+1985,Capital,All capital,1.199157951
+1985,Capital,Durable equipment,1.088176955
+1985,Capital,Service buildings,1.648237814
+1985,Capital,Land,1.10143655
+1985,Capital,Inventories,1.229001306
+1985,Labor,All labor,1.280784163
+1985,Labor,Hired labor,1.266017292
+1985,Labor,Self-employed and unpaid family,1.286982255
+1985,Intermediate goods,All intermediate goods,0.754183087
+1985,Intermediate goods,Feed and seed,0.787627641
+1985,Intermediate goods,Energy,1.435320486
+1985,Intermediate goods,Fertilizer and lime,0.699143965
+1985,Intermediate goods,Pesticides,0.251155873
+1985,Intermediate goods,Purchased services,0.756135708
+1985,Intermediate goods,Other intermediate,0.57126196
+1985,Total factor productivity (TFP),Total factor productivity (TFP),0.707614294
+1986,Total output,Total output,0.664285529
+1986,Livestock and products,All livestock and products,0.699966588
+1986,Livestock and products,Meat animals,0.876854581
+1986,Livestock and products,Dairy,0.676610577
+1986,Livestock and products,Poultry and eggs,0.459945929
+1986,Crops,All crops,0.66040149
+1986,Crops,Food grains,0.926397231
+1986,Crops,Feed crops,0.798395102
+1986,Crops,Oil crops,0.462670165
+1986,Crops,Vegetables and melons,0.887547898
+1986,Crops,Fruits and nuts,0.596024773
+1986,Crops,Other crops,0.562040632
+1986,Farm-related output,Farm-related output,0.54209478
+1986,Total farm inputs,Total farm inputs,0.979465044
+1986,Capital,All capital,1.153239237
+1986,Capital,Durable equipment,1.014575465
+1986,Capital,Service buildings,1.571049301
+1986,Capital,Land,1.096690614
+1986,Capital,Inventories,1.187781779
+1986,Labor,All labor,1.302421971
+1986,Labor,Hired labor,1.217588471
+1986,Labor,Self-employed and unpaid family,1.351986682
+1986,Intermediate goods,All intermediate goods,0.777010518
+1986,Intermediate goods,Feed and seed,0.784353634
+1986,Intermediate goods,Energy,1.332455116
+1986,Intermediate goods,Fertilizer and lime,0.873601386
+1986,Intermediate goods,Pesticides,0.498022086
+1986,Intermediate goods,Purchased services,0.678331564
+1986,Intermediate goods,Other intermediate,0.749388144
+1986,Total factor productivity (TFP),Total factor productivity (TFP),0.678212595
+1987,Total output,Total output,0.672024786
+1987,Livestock and products,All livestock and products,0.710022816
+1987,Livestock and products,Meat animals,0.867451267
+1987,Livestock and products,Dairy,0.675240385
+1987,Livestock and products,Poultry and eggs,0.501150187
+1987,Crops,All crops,0.662401293
+1987,Crops,Food grains,0.927903922
+1987,Crops,Feed crops,0.707269641
+1987,Crops,Oil crops,0.464823609
+1987,Crops,Vegetables and melons,0.941792953
+1987,Crops,Fruits and nuts,0.682408154
+1987,Crops,Other crops,0.675443688
+1987,Farm-related output,Farm-related output,0.592679632
+1987,Total farm inputs,Total farm inputs,0.96579348
+1987,Capital,All capital,1.111749845
+1987,Capital,Durable equipment,0.939887467
+1987,Capital,Service buildings,1.514837678
+1987,Capital,Land,1.090946156
+1987,Capital,Inventories,1.158504645
+1987,Labor,All labor,1.325508787
+1987,Labor,Hired labor,1.24249474
+1987,Labor,Self-employed and unpaid family,1.373888942
+1987,Intermediate goods,All intermediate goods,0.771298049
+1987,Intermediate goods,Feed and seed,0.764360686
+1987,Intermediate goods,Energy,1.48570522
+1987,Intermediate goods,Fertilizer and lime,0.70035069
+1987,Intermediate goods,Pesticides,0.511860521
+1987,Intermediate goods,Purchased services,0.716199191
+1987,Intermediate goods,Other intermediate,0.693365712
+1987,Total factor productivity (TFP),Total factor productivity (TFP),0.695826593
+1988,Total output,Total output,0.633970975
+1988,Livestock and products,All livestock and products,0.71265269
+1988,Livestock and products,Meat animals,0.848003351
+1988,Livestock and products,Dairy,0.686697115
+1988,Livestock and products,Poultry and eggs,0.513071004
+1988,Crops,All crops,0.583978268
+1988,Crops,Food grains,0.844082565
+1988,Crops,Feed crops,0.527065756
+1988,Crops,Oil crops,0.385189476
+1988,Crops,Vegetables and melons,0.898871182
+1988,Crops,Fruits and nuts,0.732856964
+1988,Crops,Other crops,0.713005014
+1988,Farm-related output,Farm-related output,0.695783848
+1988,Total farm inputs,Total farm inputs,0.950797741
+1988,Capital,All capital,1.085305157
+1988,Capital,Durable equipment,0.890909975
+1988,Capital,Service buildings,1.520430217
+1988,Capital,Land,1.08361844
+1988,Capital,Inventories,1.117520267
+1988,Labor,All labor,1.341933247
+1988,Labor,Hired labor,1.282830053
+1988,Labor,Self-employed and unpaid family,1.375402578
+1988,Intermediate goods,All intermediate goods,0.756235352
+1988,Intermediate goods,Feed and seed,0.751252548
+1988,Intermediate goods,Energy,1.485638152
+1988,Intermediate goods,Fertilizer and lime,0.618864575
+1988,Intermediate goods,Pesticides,0.443447491
+1988,Intermediate goods,Purchased services,0.729697907
+1988,Intermediate goods,Other intermediate,0.729191338
+1988,Total factor productivity (TFP),Total factor productivity (TFP),0.666777957
+1989,Total output,Total output,0.685428593
+1989,Livestock and products,All livestock and products,0.717738374
+1989,Livestock and products,Meat animals,0.847468932
+1989,Livestock and products,Dairy,0.681894231
+1989,Livestock and products,Poultry and eggs,0.53381988
+1989,Crops,All crops,0.665713572
+1989,Crops,Food grains,0.925857404
+1989,Crops,Feed crops,0.708806399
+1989,Crops,Oil crops,0.461196041
+1989,Crops,Vegetables and melons,0.927385949
+1989,Crops,Fruits and nuts,0.70080853
+1989,Crops,Other crops,0.683206575
+1989,Farm-related output,Farm-related output,0.737710454
+1989,Total farm inputs,Total farm inputs,0.93913055
+1989,Capital,All capital,1.063426196
+1989,Capital,Durable equipment,0.852259406
+1989,Capital,Service buildings,1.547716772
+1989,Capital,Land,1.075510245
+1989,Capital,Inventories,1.052694391
+1989,Labor,All labor,1.297697112
+1989,Labor,Hired labor,1.203247875
+1989,Labor,Self-employed and unpaid family,1.35329492
+1989,Intermediate goods,All intermediate goods,0.756629982
+1989,Intermediate goods,Feed and seed,0.717350112
+1989,Intermediate goods,Energy,1.473062408
+1989,Intermediate goods,Fertilizer and lime,0.584073645
+1989,Intermediate goods,Pesticides,0.520591635
+1989,Intermediate goods,Purchased services,0.786909324
+1989,Intermediate goods,Other intermediate,0.694210284
+1989,Total factor productivity (TFP),Total factor productivity (TFP),0.72985443
+1990,Total output,Total output,0.718153056
+1990,Livestock and products,All livestock and products,0.734491609
+1990,Livestock and products,Meat animals,0.853692551
+1990,Livestock and products,Dairy,0.700600962
+1990,Livestock and products,Poultry and eggs,0.56799242
+1990,Crops,All crops,0.711656347
+1990,Crops,Food grains,1.194243311
+1990,Crops,Feed crops,0.730532637
+1990,Crops,Oil crops,0.464040611
+1990,Crops,Vegetables and melons,0.957910162
+1990,Crops,Fruits and nuts,0.689624943
+1990,Crops,Other crops,0.783009
+1990,Farm-related output,Farm-related output,0.749105748
+1990,Total farm inputs,Total farm inputs,0.9536401
+1990,Capital,All capital,1.049396246
+1990,Capital,Durable equipment,0.826370273
+1990,Capital,Service buildings,1.501150345
+1990,Capital,Land,1.067814919
+1990,Capital,Inventories,1.102431744
+1990,Labor,All labor,1.212991419
+1990,Labor,Hired labor,1.197514407
+1990,Labor,Self-employed and unpaid family,1.219571077
+1990,Intermediate goods,All intermediate goods,0.808886181
+1990,Intermediate goods,Feed and seed,0.776625708
+1990,Intermediate goods,Energy,1.467498394
+1990,Intermediate goods,Fertilizer and lime,0.749955607
+1990,Intermediate goods,Pesticides,0.53242924
+1990,Intermediate goods,Purchased services,0.80774861
+1990,Intermediate goods,Other intermediate,0.701031291
+1990,Total factor productivity (TFP),Total factor productivity (TFP),0.753065078
+1991,Total output,Total output,0.720934746
+1991,Livestock and products,All livestock and products,0.753731272
+1991,Livestock and products,Meat animals,0.882318166
+1991,Livestock and products,Dairy,0.700591346
+1991,Livestock and products,Poultry and eggs,0.592579996
+1991,Crops,All crops,0.704612282
+1991,Crops,Food grains,0.911217556
+1991,Crops,Feed crops,0.713606415
+1991,Crops,Oil crops,0.501359911
+1991,Crops,Vegetables and melons,1.00538512
+1991,Crops,Fruits and nuts,0.680933388
+1991,Crops,Other crops,0.827859016
+1991,Farm-related output,Farm-related output,0.738967091
+1991,Total farm inputs,Total farm inputs,0.952217228
+1991,Capital,All capital,1.041110298
+1991,Capital,Durable equipment,0.808182312
+1991,Capital,Service buildings,1.488136433
+1991,Capital,Land,1.061917621
+1991,Capital,Inventories,1.139470114
+1991,Labor,All labor,1.221188608
+1991,Labor,Hired labor,1.194250125
+1991,Labor,Self-employed and unpaid family,1.234895158
+1991,Intermediate goods,All intermediate goods,0.808591917
+1991,Intermediate goods,Feed and seed,0.779654896
+1991,Intermediate goods,Energy,1.468309865
+1991,Intermediate goods,Fertilizer and lime,0.706299713
+1991,Intermediate goods,Pesticides,0.496887408
+1991,Intermediate goods,Purchased services,0.821955484
+1991,Intermediate goods,Other intermediate,0.756652163
+1991,Total factor productivity (TFP),Total factor productivity (TFP),0.757111639
+1992,Total output,Total output,0.762988765
+1992,Livestock and products,All livestock and products,0.77260521
+1992,Livestock and products,Meat animals,0.901869715
+1992,Livestock and products,Dairy,0.716129808
+1992,Livestock and products,Poultry and eggs,0.620569174
+1992,Crops,All crops,0.772538227
+1992,Crops,Food grains,1.117908029
+1992,Crops,Feed crops,0.828351477
+1992,Crops,Oil crops,0.531691871
+1992,Crops,Vegetables and melons,1.047689576
+1992,Crops,Fruits and nuts,0.710417754
+1992,Crops,Other crops,0.83817667
+1992,Farm-related output,Farm-related output,0.691076905
+1992,Total farm inputs,Total farm inputs,0.936547316
+1992,Capital,All capital,1.027372401
+1992,Capital,Durable equipment,0.781901295
+1992,Capital,Service buildings,1.454625047
+1992,Capital,Land,1.059203038
+1992,Capital,Inventories,1.137976197
+1992,Labor,All labor,1.1899448
+1992,Labor,Hired labor,1.130002462
+1992,Labor,Self-employed and unpaid family,1.22462467
+1992,Intermediate goods,All intermediate goods,0.796358543
+1992,Intermediate goods,Feed and seed,0.77505503
+1992,Intermediate goods,Energy,1.449366279
+1992,Intermediate goods,Fertilizer and lime,0.725556951
+1992,Intermediate goods,Pesticides,0.513680955
+1992,Intermediate goods,Purchased services,0.790528913
+1992,Intermediate goods,Other intermediate,0.656480372
+1992,Total factor productivity (TFP),Total factor productivity (TFP),0.81468256
+1993,Total output,Total output,0.725995659
+1993,Livestock and products,All livestock and products,0.779765794
+1993,Livestock and products,Meat animals,0.900416676
+1993,Livestock and products,Dairy,0.715822115
+1993,Livestock and products,Poultry and eggs,0.647455579
+1993,Crops,All crops,0.696297487
+1993,Crops,Food grains,1.068459103
+1993,Crops,Feed crops,0.639454063
+1993,Crops,Oil crops,0.456735269
+1993,Crops,Vegetables and melons,1.086054112
+1993,Crops,Fruits and nuts,0.762115487
+1993,Crops,Other crops,0.827671971
+1993,Farm-related output,Farm-related output,0.735292212
+1993,Total farm inputs,Total farm inputs,0.946274486
+1993,Capital,All capital,1.017059285
+1993,Capital,Durable equipment,0.7527533
+1993,Capital,Service buildings,1.418046198
+1993,Capital,Land,1.060553354
+1993,Capital,Inventories,1.188904914
+1993,Labor,All labor,1.140621839
+1993,Labor,Hired labor,1.124593846
+1993,Labor,Self-employed and unpaid family,1.147193759
+1993,Intermediate goods,All intermediate goods,0.831782674
+1993,Intermediate goods,Feed and seed,0.792626652
+1993,Intermediate goods,Energy,1.455713744
+1993,Intermediate goods,Fertilizer and lime,0.719878657
+1993,Intermediate goods,Pesticides,0.506980799
+1993,Intermediate goods,Purchased services,0.882890013
+1993,Intermediate goods,Other intermediate,0.695963493
+1993,Total factor productivity (TFP),Total factor productivity (TFP),0.767214661
+1994,Total output,Total output,0.811118958
+1994,Livestock and products,All livestock and products,0.822770862
+1994,Livestock and products,Meat animals,0.969288542
+1994,Livestock and products,Dairy,0.7305
+1994,Livestock and products,Poultry and eggs,0.679470737
+1994,Crops,All crops,0.822800633
+1994,Crops,Food grains,1.077134655
+1994,Crops,Feed crops,0.84340891
+1994,Crops,Oil crops,0.613262199
+1994,Crops,Vegetables and melons,1.19984733
+1994,Crops,Fruits and nuts,0.791292254
+1994,Crops,Other crops,0.895917586
+1994,Farm-related output,Farm-related output,0.708295005
+1994,Total farm inputs,Total farm inputs,0.987561429
+1994,Capital,All capital,1.003570291
+1994,Capital,Durable equipment,0.72824991
+1994,Capital,Service buildings,1.385017553
+1994,Capital,Land,1.064534242
+1994,Capital,Inventories,1.136564651
+1994,Labor,All labor,1.314857852
+1994,Labor,Hired labor,1.095321213
+1994,Labor,Self-employed and unpaid family,1.45134734
+1994,Intermediate goods,All intermediate goods,0.862394403
+1994,Intermediate goods,Feed and seed,0.8043259
+1994,Intermediate goods,Energy,1.495300619
+1994,Intermediate goods,Fertilizer and lime,0.730851774
+1994,Intermediate goods,Pesticides,0.591997574
+1994,Intermediate goods,Purchased services,0.915086124
+1994,Intermediate goods,Other intermediate,0.79643009
+1994,Total factor productivity (TFP),Total factor productivity (TFP),0.821335194
+1995,Total output,Total output,0.769000321
+1995,Livestock and products,All livestock and products,0.838618336
+1995,Livestock and products,Meat animals,0.977153438
+1995,Livestock and products,Dairy,0.739120192
+1995,Livestock and products,Poultry and eggs,0.70428336
+1995,Crops,All crops,0.73143288
+1995,Crops,Food grains,1.001063902
+1995,Crops,Feed crops,0.691159705
+1995,Crops,Oil crops,0.530226442
+1995,Crops,Vegetables and melons,1.136682961
+1995,Crops,Fruits and nuts,0.739668457
+1995,Crops,Other crops,0.858764883
+1995,Farm-related output,Farm-related output,0.791328577
+1995,Total farm inputs,Total farm inputs,0.998691884
+1995,Capital,All capital,0.998802873
+1995,Capital,Durable equipment,0.706480513
+1995,Capital,Service buildings,1.351968492
+1995,Capital,Land,1.069330725
+1995,Capital,Inventories,1.226237737
+1995,Labor,All labor,1.321454645
+1995,Labor,Hired labor,1.134652258
+1995,Labor,Self-employed and unpaid family,1.437077238
+1995,Intermediate goods,All intermediate goods,0.881220888
+1995,Intermediate goods,Feed and seed,0.838017845
+1995,Intermediate goods,Energy,1.568586643
+1995,Intermediate goods,Fertilizer and lime,0.579959049
+1995,Intermediate goods,Pesticides,0.635598689
+1995,Intermediate goods,Purchased services,0.95450486
+1995,Intermediate goods,Other intermediate,0.870399846
+1995,Total factor productivity (TFP),Total factor productivity (TFP),0.77000758
+1996,Total output,Total output,0.806088388
+1996,Livestock and products,All livestock and products,0.835264015
+1996,Livestock and products,Meat animals,0.939611974
+1996,Livestock and products,Dairy,0.733322115
+1996,Livestock and products,Poultry and eggs,0.745652302
+1996,Crops,All crops,0.794519022
+1996,Crops,Food grains,1.035933511
+1996,Crops,Feed crops,0.808312451
+1996,Crops,Oil crops,0.572914419
+1996,Crops,Vegetables and melons,1.17534614
+1996,Crops,Fruits and nuts,0.745015918
+1996,Crops,Other crops,0.898142446
+1996,Farm-related output,Farm-related output,0.804197039
+1996,Total farm inputs,Total farm inputs,0.937762367
+1996,Capital,All capital,0.986123148
+1996,Capital,Durable equipment,0.685462981
+1996,Capital,Service buildings,1.321029687
+1996,Capital,Land,1.073394516
+1996,Capital,Inventories,1.173858526
+1996,Labor,All labor,1.223547958
+1996,Labor,Hired labor,1.083604361
+1996,Labor,Self-employed and unpaid family,1.309572753
+1996,Intermediate goods,All intermediate goods,0.811919758
+1996,Intermediate goods,Feed and seed,0.757200807
+1996,Intermediate goods,Energy,1.569106434
+1996,Intermediate goods,Fertilizer and lime,0.60677913
+1996,Intermediate goods,Pesticides,0.402580236
+1996,Intermediate goods,Purchased services,0.932843015
+1996,Intermediate goods,Other intermediate,0.772602235
+1996,Total factor productivity (TFP),Total factor productivity (TFP),0.859587052
+1997,Total output,Total output,0.838139608
+1997,Livestock and products,All livestock and products,0.851650426
+1997,Livestock and products,Meat animals,0.956673896
+1997,Livestock and products,Dairy,0.743735577
+1997,Livestock and products,Poultry and eggs,0.761834385
+1997,Crops,All crops,0.834166775
+1997,Crops,Food grains,1.122857857
+1997,Crops,Feed crops,0.806494464
+1997,Crops,Oil crops,0.63863168
+1997,Crops,Vegetables and melons,1.187624901
+1997,Crops,Fruits and nuts,0.88106355
+1997,Crops,Other crops,0.937457479
+1997,Farm-related output,Farm-related output,0.854270009
+1997,Total farm inputs,Total farm inputs,0.978583053
+1997,Capital,All capital,0.984379383
+1997,Capital,Durable equipment,0.674230198
+1997,Capital,Service buildings,1.29287509
+1997,Capital,Land,1.075387609
+1997,Capital,Inventories,1.250659233
+1997,Labor,All labor,1.21384675
+1997,Labor,Hired labor,1.140414932
+1997,Labor,Self-employed and unpaid family,1.257531482
+1997,Intermediate goods,All intermediate goods,0.884548853
+1997,Intermediate goods,Feed and seed,0.813912262
+1997,Intermediate goods,Energy,1.606657646
+1997,Intermediate goods,Fertilizer and lime,0.749652624
+1997,Intermediate goods,Pesticides,0.494507234
+1997,Intermediate goods,Purchased services,0.975760363
+1997,Intermediate goods,Other intermediate,0.899710908
+1997,Total factor productivity (TFP),Total factor productivity (TFP),0.856482856
+1998,Total output,Total output,0.84392889
+1998,Livestock and products,All livestock and products,0.857631971
+1998,Livestock and products,Meat animals,0.957822586
+1998,Livestock and products,Dairy,0.749725962
+1998,Livestock and products,Poultry and eggs,0.776025545
+1998,Crops,All crops,0.823247963
+1998,Crops,Food grains,1.150283993
+1998,Crops,Feed crops,0.823899753
+1998,Crops,Oil crops,0.659715665
+1998,Crops,Vegetables and melons,1.172510672
+1998,Crops,Fruits and nuts,0.804232454
+1998,Crops,Other crops,0.86499242
+1998,Farm-related output,Farm-related output,0.998406101
+1998,Total farm inputs,Total farm inputs,0.997129477
+1998,Capital,All capital,0.980457647
+1998,Capital,Durable equipment,0.672108376
+1998,Capital,Service buildings,1.265257831
+1998,Capital,Land,1.074327396
+1998,Capital,Inventories,1.255396663
+1998,Labor,All labor,1.152738114
+1998,Labor,Hired labor,1.161385362
+1998,Labor,Self-employed and unpaid family,1.144298002
+1998,Intermediate goods,All intermediate goods,0.936272949
+1998,Intermediate goods,Feed and seed,0.877595579
+1998,Intermediate goods,Energy,1.620943643
+1998,Intermediate goods,Fertilizer and lime,0.925370748
+1998,Intermediate goods,Pesticides,0.501992276
+1998,Intermediate goods,Purchased services,1.002823953
+1998,Intermediate goods,Other intermediate,0.824888821
+1998,Total factor productivity (TFP),Total factor productivity (TFP),0.84635838
+1999,Total output,Total output,0.863390868
+1999,Livestock and products,All livestock and products,0.878996678
+1999,Livestock and products,Meat animals,0.959453595
+1999,Livestock and products,Dairy,0.775899038
+1999,Livestock and products,Poultry and eggs,0.811402695
+1999,Crops,All crops,0.832370292
+1999,Crops,Food grains,1.081187231
+1999,Crops,Feed crops,0.822159423
+1999,Crops,Oil crops,0.636778909
+1999,Crops,Vegetables and melons,1.279820784
+1999,Crops,Fruits and nuts,0.822220731
+1999,Crops,Other crops,0.899531439
+1999,Farm-related output,Farm-related output,1.092547561
+1999,Total farm inputs,Total farm inputs,0.999648826
+1999,Capital,All capital,0.977199661
+1999,Capital,Durable equipment,0.675790871
+1999,Capital,Service buildings,1.240928353
+1999,Capital,Land,1.070198561
+1999,Capital,Inventories,1.243769859
+1999,Labor,All labor,1.14059051
+1999,Labor,Hired labor,1.208259995
+1999,Labor,Self-employed and unpaid family,1.094586873
+1999,Intermediate goods,All intermediate goods,0.945906913
+1999,Intermediate goods,Feed and seed,0.926845309
+1999,Intermediate goods,Energy,1.64553207
+1999,Intermediate goods,Fertilizer and lime,0.767685256
+1999,Intermediate goods,Pesticides,0.490498369
+1999,Intermediate goods,Purchased services,1.017146916
+1999,Intermediate goods,Other intermediate,0.84401237
+1999,Total factor productivity (TFP),Total factor productivity (TFP),0.863694175
+2000,Total output,Total output,0.867915729
+2000,Livestock and products,All livestock and products,0.879360772
+2000,Livestock and products,Meat animals,0.931414105
+2000,Livestock and products,Dairy,0.798490385
+2000,Livestock and products,Poultry and eggs,0.827192974
+2000,Crops,All crops,0.847924906
+2000,Crops,Food grains,1.039125683
+2000,Crops,Feed crops,0.834171619
+2000,Crops,Oil crops,0.654025062
+2000,Crops,Vegetables and melons,1.261036372
+2000,Crops,Fruits and nuts,0.895321272
+2000,Crops,Other crops,0.922424381
+2000,Farm-related output,Farm-related output,1.033105718
+2000,Total farm inputs,Total farm inputs,0.982457316
+2000,Capital,All capital,0.972095652
+2000,Capital,Durable equipment,0.67373556
+2000,Capital,Service buildings,1.221024259
+2000,Capital,Land,1.063807964
+2000,Capital,Inventories,1.233938322
+2000,Labor,All labor,1.093185356
+2000,Labor,Hired labor,1.014867903
+2000,Labor,Self-employed and unpaid family,1.138576063
+2000,Intermediate goods,All intermediate goods,0.935285744
+2000,Intermediate goods,Feed and seed,0.90498983
+2000,Intermediate goods,Energy,1.571167506
+2000,Intermediate goods,Fertilizer and lime,0.9415836
+2000,Intermediate goods,Pesticides,0.508967627
+2000,Intermediate goods,Purchased services,0.965710229
+2000,Intermediate goods,Other intermediate,0.822207146
+2000,Total factor productivity (TFP),Total factor productivity (TFP),0.883413167
+2001,Total output,Total output,0.872499075
+2001,Livestock and products,All livestock and products,0.885552959
+2001,Livestock and products,Meat animals,0.953290218
+2001,Livestock and products,Dairy,0.789052885
+2001,Livestock and products,Poultry and eggs,0.840416252
+2001,Crops,All crops,0.844581378
+2001,Crops,Food grains,0.957316957
+2001,Crops,Feed crops,0.818221651
+2001,Crops,Oil crops,0.695221952
+2001,Crops,Vegetables and melons,1.203267307
+2001,Crops,Fruits and nuts,0.873506924
+2001,Crops,Other crops,0.952687274
+2001,Farm-related output,Farm-related output,1.091306099
+2001,Total farm inputs,Total farm inputs,0.963315239
+2001,Capital,All capital,0.968096919
+2001,Capital,Durable equipment,0.67250588
+2001,Capital,Service buildings,1.206998282
+2001,Capital,Land,1.056071744
+2001,Capital,Inventories,1.24661548
+2001,Labor,All labor,1.090798938
+2001,Labor,Hired labor,1.023458096
+2001,Labor,Self-employed and unpaid family,1.129463413
+2001,Intermediate goods,All intermediate goods,0.90411741
+2001,Intermediate goods,Feed and seed,0.881561611
+2001,Intermediate goods,Energy,1.533783372
+2001,Intermediate goods,Fertilizer and lime,0.859500645
+2001,Intermediate goods,Pesticides,0.344017378
+2001,Intermediate goods,Purchased services,0.997064275
+2001,Intermediate goods,Other intermediate,0.897935872
+2001,Total factor productivity (TFP),Total factor productivity (TFP),0.905725394
+2002,Total output,Total output,0.854651004
+2002,Livestock and products,All livestock and products,0.892359083
+2002,Livestock and products,Meat animals,0.927879559
+2002,Livestock and products,Dairy,0.812230769
+2002,Livestock and products,Poultry and eggs,0.875366869
+2002,Crops,All crops,0.809882417
+2002,Crops,Food grains,0.821243486
+2002,Crops,Feed crops,0.772036348
+2002,Crops,Oil crops,0.651183383
+2002,Crops,Vegetables and melons,1.240875674
+2002,Crops,Fruits and nuts,0.878058262
+2002,Crops,Other crops,0.916623656
+2002,Farm-related output,Farm-related output,1.071949426
+2002,Total farm inputs,Total farm inputs,0.961430794
+2002,Capital,All capital,0.982088046
+2002,Capital,Durable equipment,0.680828635
+2002,Capital,Service buildings,1.184159197
+2002,Capital,Land,1.048066644
+2002,Capital,Inventories,1.261875346
+2002,Labor,All labor,1.101828723
+2002,Labor,Hired labor,1.037570426
+2002,Labor,Self-employed and unpaid family,1.138576008
+2002,Intermediate goods,All intermediate goods,0.892024356
+2002,Intermediate goods,Feed and seed,0.867068625
+2002,Intermediate goods,Energy,1.668173188
+2002,Intermediate goods,Fertilizer and lime,0.84791848
+2002,Intermediate goods,Pesticides,0.370125161
+2002,Intermediate goods,Purchased services,0.950351763
+2002,Intermediate goods,Other intermediate,0.848456486
+2002,Total factor productivity (TFP),Total factor productivity (TFP),0.888936582
+2003,Total output,Total output,0.873035421
+2003,Livestock and products,All livestock and products,0.908444338
+2003,Livestock and products,Meat animals,0.927931943
+2003,Livestock and products,Dairy,0.813567308
+2003,Livestock and products,Poultry and eggs,0.925482279
+2003,Crops,All crops,0.843171528
+2003,Crops,Food grains,1.093970236
+2003,Crops,Feed crops,0.84681556
+2003,Crops,Oil crops,0.594656251
+2003,Crops,Vegetables and melons,1.216380812
+2003,Crops,Fruits and nuts,0.886050544
+2003,Crops,Other crops,0.939879424
+2003,Farm-related output,Farm-related output,0.984196798
+2003,Total farm inputs,Total farm inputs,0.953087653
+2003,Capital,All capital,0.957341867
+2003,Capital,Durable equipment,0.689619425
+2003,Capital,Service buildings,1.165538654
+2003,Capital,Land,1.040765026
+2003,Capital,Inventories,1.221308761
+2003,Labor,All labor,1.063643301
+2003,Labor,Hired labor,1.014867891
+2003,Labor,Self-employed and unpaid family,1.090987147
+2003,Intermediate goods,All intermediate goods,0.901016554
+2003,Intermediate goods,Feed and seed,0.882377267
+2003,Intermediate goods,Energy,1.402159442
+2003,Intermediate goods,Fertilizer and lime,1.11284811
+2003,Intermediate goods,Pesticides,0.379974155
+2003,Intermediate goods,Purchased services,0.942732682
+2003,Intermediate goods,Other intermediate,0.778087751
+2003,Total factor productivity (TFP),Total factor productivity (TFP),0.916007482
+2004,Total output,Total output,0.913315787
+2004,Livestock and products,All livestock and products,0.894199147
+2004,Livestock and products,Meat animals,0.935858562
+2004,Livestock and products,Dairy,0.815942308
+2004,Livestock and products,Poultry and eggs,0.886280177
+2004,Crops,All crops,0.923133857
+2004,Crops,Food grains,1.055888215
+2004,Crops,Feed crops,0.933524956
+2004,Crops,Oil crops,0.737686032
+2004,Crops,Vegetables and melons,1.264234495
+2004,Crops,Fruits and nuts,0.912747918
+2004,Crops,Other crops,1.034779711
+2004,Farm-related output,Farm-related output,1.019793861
+2004,Total farm inputs,Total farm inputs,0.941432383
+2004,Capital,All capital,0.95800235
+2004,Capital,Durable equipment,0.707905751
+2004,Capital,Service buildings,1.146030632
+2004,Capital,Land,1.033961506
+2004,Capital,Inventories,1.190211591
+2004,Labor,All labor,1.023033511
+2004,Labor,Hired labor,0.91976238
+2004,Labor,Self-employed and unpaid family,1.083897925
+2004,Intermediate goods,All intermediate goods,0.895947399
+2004,Intermediate goods,Feed and seed,0.885606729
+2004,Intermediate goods,Energy,1.504541027
+2004,Intermediate goods,Fertilizer and lime,0.981857137
+2004,Intermediate goods,Pesticides,0.415069538
+2004,Intermediate goods,Purchased services,0.932090205
+2004,Intermediate goods,Other intermediate,0.665861312
+2004,Total factor productivity (TFP),Total factor productivity (TFP),0.970134237
+2005,Total output,Total output,0.901103501
+2005,Livestock and products,All livestock and products,0.916085227
+2005,Livestock and products,Meat animals,0.933150517
+2005,Livestock and products,Dairy,0.845365385
+2005,Livestock and products,Poultry and eggs,0.916155302
+2005,Crops,All crops,0.887521363
+2005,Crops,Food grains,1.026062222
+2005,Crops,Feed crops,0.879464954
+2005,Crops,Oil crops,0.741817983
+2005,Crops,Vegetables and melons,1.223441398
+2005,Crops,Fruits and nuts,0.828021197
+2005,Crops,Other crops,1.019216759
+2005,Farm-related output,Farm-related output,0.98513017
+2005,Total farm inputs,Total farm inputs,0.951331063
+2005,Capital,All capital,0.968449821
+2005,Capital,Durable equipment,0.738438006
+2005,Capital,Service buildings,1.12956885
+2005,Capital,Land,1.027308602
+2005,Capital,Inventories,1.288583406
+2005,Labor,All labor,1.038188
+2005,Labor,Hired labor,0.930522127
+2005,Labor,Self-employed and unpaid family,1.101697577
+2005,Intermediate goods,All intermediate goods,0.903093136
+2005,Intermediate goods,Feed and seed,0.911917556
+2005,Intermediate goods,Energy,1.392828082
+2005,Intermediate goods,Fertilizer and lime,0.804876453
+2005,Intermediate goods,Pesticides,0.429425937
+2005,Intermediate goods,Purchased services,0.969444866
+2005,Intermediate goods,Other intermediate,0.815110958
+2005,Total factor productivity (TFP),Total factor productivity (TFP),0.947202857
+2006,Total output,Total output,0.891216355
+2006,Livestock and products,All livestock and products,0.935169734
+2006,Livestock and products,Meat animals,0.941117264
+2006,Livestock and products,Dairy,0.86875
+2006,Livestock and products,Poultry and eggs,0.944428375
+2006,Crops,All crops,0.842459214
+2006,Crops,Food grains,0.88504663
+2006,Crops,Feed crops,0.825507484
+2006,Crops,Oil crops,0.745844054
+2006,Crops,Vegetables and melons,1.210447752
+2006,Crops,Fruits and nuts,0.90356303
+2006,Crops,Other crops,0.875123086
+2006,Farm-related output,Farm-related output,1.087830161
+2006,Total farm inputs,Total farm inputs,0.955334963
+2006,Capital,All capital,0.973749606
+2006,Capital,Durable equipment,0.75680479
+2006,Capital,Service buildings,1.110795729
+2006,Capital,Land,1.020537413
+2006,Capital,Inventories,1.285084796
+2006,Labor,All labor,0.965430292
+2006,Labor,Hired labor,0.852001084
+2006,Labor,Self-employed and unpaid family,1.032505752
+2006,Intermediate goods,All intermediate goods,0.937902836
+2006,Intermediate goods,Feed and seed,0.917159292
+2006,Intermediate goods,Energy,1.341209839
+2006,Intermediate goods,Fertilizer and lime,0.995203433
+2006,Intermediate goods,Pesticides,0.456834197
+2006,Intermediate goods,Purchased services,1.018626655
+2006,Intermediate goods,Other intermediate,0.827057645
+2006,Total factor productivity (TFP),Total factor productivity (TFP),0.932883637
+2007,Total output,Total output,0.915782892
+2007,Livestock and products,All livestock and products,0.919965864
+2007,Livestock and products,Meat animals,0.907958666
+2007,Livestock and products,Dairy,0.887331731
+2007,Livestock and products,Poultry and eggs,0.952044284
+2007,Crops,All crops,0.904469271
+2007,Crops,Food grains,0.986325553
+2007,Crops,Feed crops,0.96698975
+2007,Crops,Oil crops,0.636852803
+2007,Crops,Vegetables and melons,1.209657803
+2007,Crops,Fruits and nuts,0.97072152
+2007,Crops,Other crops,0.986198438
+2007,Farm-related output,Farm-related output,1.026640241
+2007,Total farm inputs,Total farm inputs,0.991339971
+2007,Capital,All capital,0.965305574
+2007,Capital,Durable equipment,0.756791879
+2007,Capital,Service buildings,1.090287713
+2007,Capital,Land,1.013479503
+2007,Capital,Inventories,1.252347066
+2007,Labor,All labor,0.986054865
+2007,Labor,Hired labor,0.931652814
+2007,Labor,Self-employed and unpaid family,1.017662643
+2007,Intermediate goods,All intermediate goods,0.993513771
+2007,Intermediate goods,Feed and seed,0.934831557
+2007,Intermediate goods,Energy,1.539627348
+2007,Intermediate goods,Fertilizer and lime,0.847282109
+2007,Intermediate goods,Pesticides,0.571527162
+2007,Intermediate goods,Purchased services,1.142582428
+2007,Intermediate goods,Other intermediate,0.878535274
+2007,Total factor productivity (TFP),Total factor productivity (TFP),0.923782878
+2008,Total output,Total output,0.948202155
+2008,Livestock and products,All livestock and products,0.939001617
+2008,Livestock and products,Meat animals,0.952994922
+2008,Livestock and products,Dairy,0.908225962
+2008,Livestock and products,Poultry and eggs,0.964162498
+2008,Crops,All crops,0.936516201
+2008,Crops,Food grains,1.179167621
+2008,Crops,Feed crops,0.920551521
+2008,Crops,Oil crops,0.698538671
+2008,Crops,Vegetables and melons,1.003500392
+2008,Crops,Fruits and nuts,0.930760092
+2008,Crops,Other crops,1.270781068
+2008,Farm-related output,Farm-related output,1.137966784
+2008,Total farm inputs,Total farm inputs,0.973376046
+2008,Capital,All capital,0.965607807
+2008,Capital,Durable equipment,0.767270852
+2008,Capital,Service buildings,1.071988379
+2008,Capital,Land,1.008457033
+2008,Capital,Inventories,1.259903781
+2008,Labor,All labor,0.967152697
+2008,Labor,Hired labor,0.897744298
+2008,Labor,Self-employed and unpaid family,1.007768965
+2008,Intermediate goods,All intermediate goods,0.969845406
+2008,Intermediate goods,Feed and seed,0.924298713
+2008,Intermediate goods,Energy,1.400398879
+2008,Intermediate goods,Fertilizer and lime,0.956237696
+2008,Intermediate goods,Pesticides,0.55122435
+2008,Intermediate goods,Purchased services,1.062798021
+2008,Intermediate goods,Other intermediate,0.895160091
+2008,Total factor productivity (TFP),Total factor productivity (TFP),0.974137549
+2009,Total output,Total output,0.956798336
+2009,Livestock and products,All livestock and products,0.926471572
+2009,Livestock and products,Meat animals,0.947193639
+2009,Livestock and products,Dairy,0.904754808
+2009,Livestock and products,Poultry and eggs,0.920185243
+2009,Crops,All crops,0.959145979
+2009,Crops,Food grains,1.074826647
+2009,Crops,Feed crops,0.967048087
+2009,Crops,Oil crops,0.782373649
+2009,Crops,Vegetables and melons,0.998691511
+2009,Crops,Fruits and nuts,0.954650274
+2009,Crops,Other crops,1.210170265
+2009,Farm-related output,Farm-related output,1.127475513
+2009,Total farm inputs,Total farm inputs,0.964762891
+2009,Capital,All capital,0.974143249
+2009,Capital,Durable equipment,0.794990651
+2009,Capital,Service buildings,1.060734534
+2009,Capital,Land,1.005863774
+2009,Capital,Inventories,1.250991991
+2009,Labor,All labor,0.941251511
+2009,Labor,Hired labor,0.873403816
+2009,Labor,Self-employed and unpaid family,0.98095679
+2009,Intermediate goods,All intermediate goods,0.962454832
+2009,Intermediate goods,Feed and seed,0.915666703
+2009,Intermediate goods,Energy,1.805163922
+2009,Intermediate goods,Fertilizer and lime,0.939108435
+2009,Intermediate goods,Pesticides,0.503901333
+2009,Intermediate goods,Purchased services,0.988415471
+2009,Intermediate goods,Other intermediate,0.849871637
+2009,Total factor productivity (TFP),Total factor productivity (TFP),0.991744546
+2010,Total output,Total output,0.944312791
+2010,Livestock and products,All livestock and products,0.935295868
+2010,Livestock and products,Meat animals,0.94558616
+2010,Livestock and products,Dairy,0.922581731
+2010,Livestock and products,Poultry and eggs,0.937384052
+2010,Crops,All crops,0.952987166
+2010,Crops,Food grains,1.083524941
+2010,Crops,Feed crops,0.925086271
+2010,Crops,Oil crops,0.779336087
+2010,Crops,Vegetables and melons,0.996482535
+2010,Crops,Fruits and nuts,0.967071516
+2010,Crops,Other crops,1.266546445
+2010,Farm-related output,Farm-related output,0.955725079
+2010,Total farm inputs,Total farm inputs,0.936223027
+2010,Capital,All capital,0.967012704
+2010,Capital,Durable equipment,0.795509975
+2010,Capital,Service buildings,1.045952382
+2010,Capital,Land,1.00484666
+2010,Capital,Inventories,1.188533807
+2010,Labor,All labor,0.937403461
+2010,Labor,Hired labor,0.939030733
+2010,Labor,Self-employed and unpaid family,0.936380876
+2010,Intermediate goods,All intermediate goods,0.91931886
+2010,Intermediate goods,Feed and seed,0.924587805
+2010,Intermediate goods,Energy,1.467925697
+2010,Intermediate goods,Fertilizer and lime,0.771511893
+2010,Intermediate goods,Pesticides,0.492660985
+2010,Intermediate goods,Purchased services,0.960048133
+2010,Intermediate goods,Other intermediate,0.817089143
+2010,Total factor productivity (TFP),Total factor productivity (TFP),1.008640852
+2011,Total output,Total output,0.946302569
+2011,Livestock and products,All livestock and products,0.948545123
+2011,Livestock and products,Meat animals,0.974266537
+2011,Livestock and products,Dairy,0.938894231
+2011,Livestock and products,Poultry and eggs,0.95577218
+2011,Crops,All crops,0.914854745
+2011,Crops,Food grains,0.963402305
+2011,Crops,Feed crops,0.889963334
+2011,Crops,Oil crops,0.726347752
+2011,Crops,Vegetables and melons,0.975202497
+2011,Crops,Fruits and nuts,1.005785467
+2011,Crops,Other crops,1.197437335
+2011,Farm-related output,Farm-related output,1.257566317
+2011,Total farm inputs,Total farm inputs,0.938472577
+2011,Capital,All capital,0.962811594
+2011,Capital,Durable equipment,0.803581142
+2011,Capital,Service buildings,1.027230552
+2011,Capital,Land,1.004481305
+2011,Capital,Inventories,1.07663908
+2011,Labor,All labor,0.939011113
+2011,Labor,Hired labor,0.924134675
+2011,Labor,Self-employed and unpaid family,0.947634755
+2011,Intermediate goods,All intermediate goods,0.924848429
+2011,Intermediate goods,Feed and seed,0.886314722
+2011,Intermediate goods,Energy,1.380600669
+2011,Intermediate goods,Fertilizer and lime,0.785489529
+2011,Intermediate goods,Pesticides,0.738741528
+2011,Intermediate goods,Purchased services,0.991862006
+2011,Intermediate goods,Other intermediate,0.79367493
+2011,Total factor productivity (TFP),Total factor productivity (TFP),1.008343336
+2012,Total output,Total output,0.945476215
+2012,Livestock and products,All livestock and products,0.956600394
+2012,Livestock and products,Meat animals,0.96879529
+2012,Livestock and products,Dairy,0.960033654
+2012,Livestock and products,Poultry and eggs,0.958444924
+2012,Crops,All crops,0.877904966
+2012,Crops,Food grains,1.081380704
+2012,Crops,Feed crops,0.800179863
+2012,Crops,Oil crops,0.721704748
+2012,Crops,Vegetables and melons,1.010125213
+2012,Crops,Fruits and nuts,1.009588987
+2012,Crops,Other crops,1.142438974
+2012,Farm-related output,Farm-related output,1.565713199
+2012,Total farm inputs,Total farm inputs,0.934274941
+2012,Capital,All capital,0.966956563
+2012,Capital,Durable equipment,0.82946995
+2012,Capital,Service buildings,1.017942795
+2012,Capital,Land,1.003994667
+2012,Capital,Inventories,1.057544637
+2012,Labor,All labor,0.931639023
+2012,Labor,Hired labor,0.926298806
+2012,Labor,Self-employed and unpaid family,0.934689931
+2012,Intermediate goods,All intermediate goods,0.917618724
+2012,Intermediate goods,Feed and seed,0.88522629
+2012,Intermediate goods,Energy,0.800007157
+2012,Intermediate goods,Fertilizer and lime,0.863421602
+2012,Intermediate goods,Pesticides,0.86692425
+2012,Intermediate goods,Purchased services,1.052826281
+2012,Intermediate goods,Other intermediate,1.064069369
+2012,Total factor productivity (TFP),Total factor productivity (TFP),1.01198927
+2013,Total output,Total output,1.014050297
+2013,Livestock and products,All livestock and products,0.962090087
+2013,Livestock and products,Meat animals,0.983824193
+2013,Livestock and products,Dairy,0.962759615
+2013,Livestock and products,Poultry and eggs,0.970297939
+2013,Crops,All crops,0.984905656
+2013,Crops,Food grains,1.025936577
+2013,Crops,Feed crops,0.992781882
+2013,Crops,Oil crops,0.791515162
+2013,Crops,Vegetables and melons,0.98786259
+2013,Crops,Fruits and nuts,1.053169514
+2013,Crops,Other crops,1.209037255
+2013,Farm-related output,Farm-related output,1.608507256
+2013,Total farm inputs,Total farm inputs,0.939479313
+2013,Capital,All capital,0.975076441
+2013,Capital,Durable equipment,0.886591235
+2013,Capital,Service buildings,1.007867197
+2013,Capital,Land,1.003234097
+2013,Capital,Inventories,0.939269569
+2013,Labor,All labor,0.940141324
+2013,Labor,Hired labor,0.960631769
+2013,Labor,Self-employed and unpaid family,0.928029981
+2013,Intermediate goods,All intermediate goods,0.920801547
+2013,Intermediate goods,Feed and seed,0.876412841
+2013,Intermediate goods,Energy,0.857737559
+2013,Intermediate goods,Fertilizer and lime,1.00121525
+2013,Intermediate goods,Pesticides,0.895073468
+2013,Intermediate goods,Purchased services,0.987589033
+2013,Intermediate goods,Other intermediate,0.996966924
+2013,Total factor productivity (TFP),Total factor productivity (TFP),1.079374802
+2014,Total output,Total output,0.993892092
+2014,Livestock and products,All livestock and products,0.967787372
+2014,Livestock and products,Meat animals,0.96595513
+2014,Livestock and products,Dairy,0.986014423
+2014,Livestock and products,Poultry and eggs,0.984319748
+2014,Crops,All crops,0.997963267
+2014,Crops,Food grains,1.012844321
+2014,Crops,Feed crops,1.024055392
+2014,Crops,Oil crops,0.901310078
+2014,Crops,Vegetables and melons,0.992022755
+2014,Crops,Fruits and nuts,1.028394844
+2014,Crops,Other crops,1.04448466
+2014,Farm-related output,Farm-related output,1.127505625
+2014,Total farm inputs,Total farm inputs,0.989969263
+2014,Capital,All capital,0.986470888
+2014,Capital,Durable equipment,0.940467069
+2014,Capital,Service buildings,1.002008604
+2014,Capital,Land,1.001939289
+2014,Capital,Inventories,1.006235535
+2014,Labor,All labor,0.902975618
+2014,Labor,Hired labor,0.965281916
+2014,Labor,Self-employed and unpaid family,0.866037193
+2014,Intermediate goods,All intermediate goods,1.018815061
+2014,Intermediate goods,Feed and seed,0.977517095
+2014,Intermediate goods,Energy,0.878611954
+2014,Intermediate goods,Fertilizer and lime,0.998695854
+2014,Intermediate goods,Pesticides,1.150944624
+2014,Intermediate goods,Purchased services,1.117767124
+2014,Intermediate goods,Other intermediate,1.120109314
+2014,Total factor productivity (TFP),Total factor productivity (TFP),1.003962577
+2015,Total output,Total output,1
+2015,Livestock and products,All livestock and products,1
+2015,Livestock and products,Meat animals,1
+2015,Livestock and products,Dairy,1
+2015,Livestock and products,Poultry and eggs,1
+2015,Crops,All crops,1
+2015,Crops,Food grains,1
+2015,Crops,Feed crops,1
+2015,Crops,Oil crops,1
+2015,Crops,Vegetables and melons,1
+2015,Crops,Fruits and nuts,1
+2015,Crops,Other crops,1
+2015,Farm-related output,Farm-related output,1
+2015,Total farm inputs,Total farm inputs,1
+2015,Capital,All capital,1
+2015,Capital,Durable equipment,1
+2015,Capital,Service buildings,1
+2015,Capital,Land,1
+2015,Capital,Inventories,1
+2015,Labor,All labor,1
+2015,Labor,Hired labor,1
+2015,Labor,Self-employed and unpaid family,1
+2015,Intermediate goods,All intermediate goods,1
+2015,Intermediate goods,Feed and seed,1
+2015,Intermediate goods,Energy,1
+2015,Intermediate goods,Fertilizer and lime,1
+2015,Intermediate goods,Pesticides,1
+2015,Intermediate goods,Purchased services,1
+2015,Intermediate goods,Other intermediate,1
+2015,Total factor productivity (TFP),Total factor productivity (TFP),1
+2016,Total output,Total output,1.026420881
+2016,Livestock and products,All livestock and products,1.059160673
+2016,Livestock and products,Meat animals,1.054753015
+2016,Livestock and products,Dairy,1.014423077
+2016,Livestock and products,Poultry and eggs,1.036659226
+2016,Crops,All crops,1.040716015
+2016,Crops,Food grains,1.128112797
+2016,Crops,Feed crops,1.064443012
+2016,Crops,Oil crops,1.022190677
+2016,Crops,Vegetables and melons,0.946449359
+2016,Crops,Fruits and nuts,1.037294072
+2016,Crops,Other crops,1.040098855
+2016,Farm-related output,Farm-related output,0.737218819
+2016,Total farm inputs,Total farm inputs,1.002022578
+2016,Capital,All capital,1.005718304
+2016,Capital,Durable equipment,0.999181619
+2016,Capital,Service buildings,0.990991438
+2016,Capital,Land,1.010290447
+2016,Capital,Inventories,1.019240731
+2016,Labor,All labor,1.013159945
+2016,Labor,Hired labor,1.051174784
+2016,Labor,Self-employed and unpaid family,0.99050797
+2016,Intermediate goods,All intermediate goods,0.996983123
+2016,Intermediate goods,Feed and seed,0.974090093
+2016,Intermediate goods,Energy,1.073447947
+2016,Intermediate goods,Fertilizer and lime,1.025575258
+2016,Intermediate goods,Pesticides,1.04109589
+2016,Intermediate goods,Purchased services,1.003988081
+2016,Intermediate goods,Other intermediate,0.916261449
+2016,Total factor productivity (TFP),Total factor productivity (TFP),1.024349055
+2017,Total output,Total output,1.029983746
+2017,Livestock and products,All livestock and products,1.053798313
+2017,Livestock and products,Meat animals,1.105135149
+2017,Livestock and products,Dairy,1.028846154
+2017,Livestock and products,Poultry and eggs,1.061037155
+2017,Crops,All crops,1.026258827
+2017,Crops,Food grains,0.860400048
+2017,Crops,Feed crops,1.019123508
+2017,Crops,Oil crops,1.064669687
+2017,Crops,Vegetables and melons,0.917068456
+2017,Crops,Fruits and nuts,1.019763379
+2017,Crops,Other crops,1.122456823
+2017,Farm-related output,Farm-related output,0.920594015
+2017,Total farm inputs,Total farm inputs,0.988094446
+2017,Capital,All capital,0.98692356
+2017,Capital,Durable equipment,0.979480494
+2017,Capital,Service buildings,0.978831079
+2017,Capital,Land,0.990253956
+2017,Capital,Inventories,1.004430633
+2017,Labor,All labor,0.962226264
+2017,Labor,Hired labor,1.016105485
+2017,Labor,Self-employed and unpaid family,0.929956261
+2017,Intermediate goods,All intermediate goods,0.997311057
+2017,Intermediate goods,Feed and seed,0.971582496
+2017,Intermediate goods,Energy,0.95927873
+2017,Intermediate goods,Fertilizer and lime,1.054147674
+2017,Intermediate goods,Pesticides,1.061643836
+2017,Intermediate goods,Purchased services,1.027825883
+2017,Intermediate goods,Other intermediate,0.920118068
+2017,Total factor productivity (TFP),Total factor productivity (TFP),1.042394024
