@@ -269,6 +269,11 @@ foodSales_Exp_Monthly_NOM_FAFH_animated_plot <- animate(foodSales_Exp_Monthly_NO
 
 
 
+
+
+
+
+
 ######################################################################################################################################
 ################################################### FOOD Availability ################################################################
 ######################################################################################################################################
@@ -529,6 +534,11 @@ unique(corn$Attribute)
 
 corn_prices <- corn %>% filter(Attribute=="Prices received by farmers")
 
+corn_acerage <- corn %>% filter(Attribute=="Planted acreage")
+
+corn_yield_acre <- corn %>% filter(Attribute == "Yield per harvested acre")
+
+
 corn_use <- corn %>% filter(Attribute %in% c('Food, alcohol, and industrial use', 'Seed use',
                                              'Feed and residual use', 'High-fructose corn syrup (HFCS) use',
                                              'Glucose and dextrose use', 'Starch use', 
@@ -555,6 +565,24 @@ corn_use_animated_plot <- corn_use_animated_plot + theme(legend.position="none")
 
 corn_use_animated_plot <- animate(corn_use_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
                                      renderer = gifski_renderer("CornUseAnimation.gif"))
+
+
+corn_yield_acre_plot <- corn_yield_acre %>% ggplot(aes(x=Year, y=Amount, color="gold")) + geom_line()
+
+corn_yield_acre_animated_plot <- corn_yield_acre_plot + geom_point(size=2) + transition_reveal(Year)
+
+corn_yield_acre_animated_plot <- corn_yield_acre_animated_plot + theme_light(base_size = 16)
+
+corn_yield_acre_animated_plot <-corn_yield_acre_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                         panel.grid.minor = element_blank())
+
+corn_yield_acre_animated_plot <- corn_yield_acre_animated_plot + theme(legend.position="none") + 
+  labs(x="Year", y="Bushels")+
+  ggtitle(paste0("Corn yield per harvested acre in the U.S.")) 
+
+corn_yield_acre_animated_plot <- animate(corn_yield_acre_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                  renderer = gifski_renderer("CornYieldAnimation.gif"))
+
 
 
 

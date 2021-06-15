@@ -1,0 +1,12 @@
+"0","grad_valueFunction
+"
+"1","function(st,xt){
+"
+"1","  grad <- 2 * (a/xt) * (xt-st) - p
+"
+"1","  return(grad)
+"
+"1","  
+"
+"1","}
+"
