@@ -562,30 +562,45 @@ corn_use_animated_plot <- corn_use_animated_plot + theme(legend.position="none")
   geom_label(aes(x = Year, y=Value, label=Type))+ 
   labs(x="Year", y="Million bushels")+
   ggtitle(paste0("Corn use in the U.S.")) 
-
 corn_use_animated_plot <- animate(corn_use_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
                                      renderer = gifski_renderer("CornUseAnimation.gif"))
 
 
-corn_yield_acre_plot <- corn_yield_acre %>% ggplot(aes(x=Year, y=Amount, color="gold")) + geom_line()
-
+corn_yield_acre_plot <- corn_yield_acre %>% ggplot(aes(x=Year, y=Amount)) + geom_line(colour="goldenrod3")
 corn_yield_acre_animated_plot <- corn_yield_acre_plot + geom_point(size=2) + transition_reveal(Year)
-
 corn_yield_acre_animated_plot <- corn_yield_acre_animated_plot + theme_light(base_size = 16)
-
 corn_yield_acre_animated_plot <-corn_yield_acre_animated_plot + theme(panel.grid.major = element_blank(), 
                                                          panel.grid.minor = element_blank())
-
 corn_yield_acre_animated_plot <- corn_yield_acre_animated_plot + theme(legend.position="none") + 
   labs(x="Year", y="Bushels")+
   ggtitle(paste0("Corn yield per harvested acre in the U.S.")) 
-
 corn_yield_acre_animated_plot <- animate(corn_yield_acre_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
                                   renderer = gifski_renderer("CornYieldAnimation.gif"))
 
 
+corn_acerage <- corn %>% filter(Attribute=="Planted acreage")
+corn_acerage_plot <- corn_acerage %>% ggplot(aes(x=Year, y = Amount)) + geom_line(colour = "tan4")
+corn_acerage_animated_plot <- corn_acerage_plot + geom_point(size=2) + transition_reveal(Year)
+corn_acerage_animated_plot <- corn_acerage_animated_plot + theme_light(base_size = 16)
+corn_acerage_animated_plot <- corn_acerage_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                      panel.grid.minor = element_blank())
+corn_acerage_animated_plot <- corn_acerage_animated_plot + theme(legend.position="none") + 
+  labs(x="Year", y="Planted acerage (Million acres)")+
+  ggtitle(paste0("Corn planted acerage in the U.S.")) 
+corn_acerage_animated_plot <- animate(corn_acerage_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                         renderer = gifski_renderer("CornAcerageAnimation.gif"))
 
-
+corn_prices <- corn %>% filter(Attribute=="Prices received by farmers")
+corn_prices_plot <- corn_prices %>% ggplot(aes(x = Year, y = Amount)) + geom_line(colour="springgreen4")
+corn_prices_animated_plot <- corn_prices_plot + geom_point(size=2) + transition_reveal(Year)
+corn_prices_animated_plot <- corn_prices_animated_plot + theme_light(base_size = 16)
+corn_prices_animated_plot <- corn_prices_animated_plot + theme(panel.grid.major = element_blank(), 
+                                                                 panel.grid.minor = element_blank())
+corn_prices_animated_plot <- corn_prices_animated_plot + theme(legend.position="none") + 
+  labs(x="Year", y="Price (Dollars per bushel)")+
+  ggtitle(paste0("Corn price received by farmers in the U.S.")) 
+corn_prices_animated_plot <- animate(corn_prices_animated_plot, height = 500, width = 1000,fps=6, start_pause=5, end_pause=20,
+                                      renderer = gifski_renderer("CornPriceAnimation.gif"))
 
 ################################# Vegetables Availability #############
 
@@ -637,7 +652,7 @@ allVeggiesAvail_PCC_FarmWeight_plot <- animate(allVeggiesAvail_PCC_FarmWeight_pl
 
 
 
-
+############### ANIMAL STATS
 
 
 
