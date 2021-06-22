@@ -652,6 +652,82 @@ allVeggiesAvail_PCC_FarmWeight_plot <- animate(allVeggiesAvail_PCC_FarmWeight_pl
 
 
 
+allVeggiesAvail_PCC_Greens <- allVeggiesAvail_PCC_FarmWeight %>% select(Year, `Collard greens`, Kale, `Lettuce head`,
+                                                                 `Romaine and leaf`, `Mustard greens`, Spinach,
+                                                                 `Turnip greens`)
+names(allVeggiesAvail_PCC_Greens) <- c("Year", "Collard Greens", "Kale", "Lettuce Head", "Romaine", "Mustard Greens", "Spinach",
+                                       "Turnip Greens")
+
+allVeggiesAvail_PCC_Greens <- allVeggiesAvail_PCC_Greens %>% gather(Vegetable, Availability, -Year)
+
+allVeggiesAvail_PCC_Greens_plot <- allVeggiesAvail_PCC_Greens %>% ggplot(aes(x=Year, y = Availability, color = Vegetable)) + geom_line()
+
+allVeggiesAvail_PCC_Greens_plot <- allVeggiesAvail_PCC_Greens_plot + geom_point(size=2) + transition_reveal(Year)
+
+allVeggiesAvail_PCC_Greens_plot <- allVeggiesAvail_PCC_Greens_plot + theme_light(base_size = 16)
+
+allVeggiesAvail_PCC_Greens_plot <- allVeggiesAvail_PCC_Greens_plot + theme(panel.grid.major = element_blank(), 
+                                                                                   panel.grid.minor = element_blank())
+
+allVeggiesAvail_PCC_Greens_Animated_plot <- allVeggiesAvail_PCC_Greens_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Availability, label=Vegetable), nudge_x =1, size=4, hjust=0)+ 
+  labs(x="Year", y="Pounds")+
+  ggtitle(paste0("Percapita Leafy Greens Availability in the U.S."))
+
+allVeggiesAvail_PCC_Greens_Animated_plot <- animate(allVeggiesAvail_PCC_Greens_Animated_plot, height = 500, width = 1000,fps=6, 
+                                           start_pause=5, end_pause=20, renderer = gifski_renderer("VeggiesAvailGreen.gif"))
+
+
+
+
+allVeggiesAvail_PCC_Cruciferous <- allVeggiesAvail_PCC_FarmWeight %>% select(Year, Cabbage, Cauliflower, Broccoli, `Brussels sprouts`)
+names(allVeggiesAvail_PCC_Cruciferous) <- c("Year", "Cabbage", "Cauliflower", "Broccoli", "Brussels Sprouts")
+
+allVeggiesAvail_PCC_Cruciferous <- allVeggiesAvail_PCC_Cruciferous %>% gather(Vegetable, Availability, -Year)
+
+allVeggiesAvail_PCC_Cruciferous_plot <- allVeggiesAvail_PCC_Cruciferous %>% ggplot(aes(x=Year, y = Availability, color = Vegetable)) + geom_line()
+
+allVeggiesAvail_PCC_Cruciferous_plot <- allVeggiesAvail_PCC_Cruciferous_plot + geom_point(size=2) + transition_reveal(Year)
+
+allVeggiesAvail_PCC_Cruciferous_plot <- allVeggiesAvail_PCC_Cruciferous_plot + theme_light(base_size = 16)
+
+allVeggiesAvail_PCC_Cruciferous_plot <- allVeggiesAvail_PCC_Cruciferous_plot + theme(panel.grid.major = element_blank(), 
+                                                                           panel.grid.minor = element_blank())
+
+allVeggiesAvail_PCC_Cruciferous_Animated_plot <- allVeggiesAvail_PCC_Cruciferous_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Availability, label=Vegetable), nudge_x =1, size=4, hjust=0)+ 
+  labs(x="Year", y="Pounds")+
+  ggtitle(paste0("Percapita Cruciferous Vegetable Availability in the U.S."))
+
+allVeggiesAvail_PCC_Cruciferous_Animated_plot <- animate(allVeggiesAvail_PCC_Cruciferous_Animated_plot, height = 500, width = 1000,fps=6, 
+                                                    start_pause=5, end_pause=20, 
+                                                    renderer = gifski_renderer("VeggiesAvailCruciferous.gif"))
+
+
+allVeggiesAvail_PCC_Roots <- allVeggiesAvail_PCC_FarmWeight %>% select(Year, Carrots, Garlic, Onions, Potatoes, Radishes, `Sweet potatoes`)
+names(allVeggiesAvail_PCC_Roots) <- c("Year", "Carrots", "Garlic", "Onions", "Potatoes", "Radishes", "Sweet Potatoes")
+
+allVeggiesAvail_PCC_Roots <- allVeggiesAvail_PCC_Roots %>% gather(Vegetable, Availability, -Year)
+
+allVeggiesAvail_PCC_Roots_plot <- allVeggiesAvail_PCC_Roots %>% ggplot(aes(x=Year, y = Availability, color = Vegetable)) + geom_line()
+
+allVeggiesAvail_PCC_Roots_plot <- allVeggiesAvail_PCC_Roots_plot + geom_point(size=2) + transition_reveal(Year)
+
+allVeggiesAvail_PCC_Roots_plot <- allVeggiesAvail_PCC_Roots_plot + theme_light(base_size = 16)
+
+allVeggiesAvail_PCC_Roots_plot <- allVeggiesAvail_PCC_Roots_plot + theme(panel.grid.major = element_blank(), 
+                                                                                     panel.grid.minor = element_blank())
+
+allVeggiesAvail_PCC_Roots_Animated_plot <- allVeggiesAvail_PCC_Roots_plot + theme(legend.position="none") + 
+  geom_label(aes(x = Year, y=Availability, label=Vegetable), nudge_x =1, size=4, hjust=0)+ 
+  labs(x="Year", y="Pounds")+
+  ggtitle(paste0("Percapita Roots Vegetable Availability in the U.S."))
+
+allVeggiesAvail_PCC_Roots_Animated_plot <- animate(allVeggiesAvail_PCC_Roots_Animated_plot, height = 500, width = 1000,fps=6, 
+                                                         start_pause=5, end_pause=20, 
+                                                         renderer = gifski_renderer("VeggiesAvailRoots.gif"))
+
+
 ############### ANIMAL STATS
 
 

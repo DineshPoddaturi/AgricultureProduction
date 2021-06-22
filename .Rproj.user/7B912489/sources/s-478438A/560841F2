@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1624386454317.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "560841F2",
+    "lastKnownWriteTime" : 1624388222,
+    "last_content_update" : 1624388222013,
+    "path" : "/Users/Dinesh/Dinesh/Agriculture Production/AgricultureProduction/AgricultureProduction/ui.R",
+    "project_path" : "AgricultureProduction/ui.R",
+    "properties" : {
+        "cursorPosition" : "25,20",
+        "scrollLine" : "2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
