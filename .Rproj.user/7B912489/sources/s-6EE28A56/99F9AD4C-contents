@@ -267,7 +267,7 @@ shinyServer(function(input, output) {
 
     })
 
-})
+}
 
 
 

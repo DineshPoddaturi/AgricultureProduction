@@ -4,16 +4,16 @@
     "created" : 1614199256936.000,
     "dirty" : false,
     "encoding" : "UTF-8",
-    "folds" : "",
+    "folds" : "17|37|37|0|\n39|43|60|0|\n64|39|77|0|\n79|45|96|0|\n98|33|111|0|\n113|43|126|0|\n128|49|149|0|\n152|28|155|0|\n158|37|164|0|\n167|38|172|0|\n175|38|196|0|\n315|27|321|2|\n323|28|329|2|\n331|37|342|2|\n344|39|353|2|\n355|32|364|2|\n",
     "hash" : "0",
     "id" : "F0F45299",
     "lastKnownWriteTime" : 1625497095,
-    "last_content_update" : 1625497095267,
+    "last_content_update" : 1626297325415,
     "path" : "/Users/Dinesh/Dinesh/Agriculture Production/AgricultureProduction/ShinyApp/shiny.R",
     "project_path" : "ShinyApp/shiny.R",
     "properties" : {
-        "cursorPosition" : "380,36",
-        "scrollLine" : "339"
+        "cursorPosition" : "398,0",
+        "scrollLine" : "369"
     },
     "read_only" : false,
     "read_only_alternatives" : [

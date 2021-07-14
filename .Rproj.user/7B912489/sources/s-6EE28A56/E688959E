@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1626296716412.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "42|31|126|0|\n128|41|172|0|\n174|41|209|0|\n211|33|250|0|\n252|36|290|0|\n292|41|327|0|\n329|29|364|0|\n366|30|408|0|\n",
+    "hash" : "398030435",
+    "id" : "E688959E",
+    "lastKnownWriteTime" : 1626298594,
+    "last_content_update" : 1626298594385,
+    "path" : "/Users/Dinesh/Dinesh/Agriculture Production/AgricultureProduction/FoodAvailability.R",
+    "project_path" : "FoodAvailability.R",
+    "properties" : {
+        "cursorPosition" : "658,13",
+        "scrollLine" : "634",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

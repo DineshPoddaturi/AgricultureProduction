@@ -26,7 +26,7 @@ shinyUI(fluidPage(
     # Showing all the plots
     mainPanel(
         tabsetPanel(
-            tabPanel("Availability")
+            tabPanel("Availability",plotlyOutput("Availability"))
         )
     )
     
